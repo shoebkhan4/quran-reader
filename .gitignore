@@ -8,3 +8,6 @@ private-data/*
 src/data/roman-urdu-full.json
 data/roman-urdu-full.json
 *.html.snapshot
+__pycache__/
+*.py[cod]
+
