@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env*
+!.env.example
+private-data/*
+!private-data/.gitkeep
+# Do not commit extracted Kanzul Iman material until redistribution permission is established
+src/data/roman-urdu-full.json
+data/roman-urdu-full.json
+*.html.snapshot
