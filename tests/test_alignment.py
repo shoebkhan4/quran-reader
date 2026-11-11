@@ -22,4 +22,12 @@ class ValidationTest(unittest.TestCase):
         doc=json.loads((ROOT/'data/an-nur.sample.json').read_text(encoding='utf-8'))
         errors,_=validate(doc,complete=True)
         self.assertTrue(any('62 Ayat missing' in e for e in errors))
+    def test_public_arabic_corpus_is_complete_and_keyed(self):
+        corpus=json.loads((ROOT/'data/quran-qpc-hafs.json').read_text(encoding='utf-8'))
+        verses=corpus['verses']
+        self.assertEqual(len(verses),6236)
+        self.assertEqual(len({v['id'] for v in verses}),6236)
+        self.assertEqual(verses[7],{'id':'2:1','surah':2,'ayah':1,'arabic':'الٓمٓ'})
+        self.assertEqual(corpus['source']['name'],"Qur'anpedia QPC Hafs (KFGQPC)")
+        self.assertEqual(corpus['source']['dump_version'],'2026-09-30')
 if __name__=='__main__':unittest.main()

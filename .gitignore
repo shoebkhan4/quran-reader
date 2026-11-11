@@ -10,4 +10,5 @@ data/roman-urdu-full.json
 *.html.snapshot
 __pycache__/
 *.py[cod]
+*.tsbuildinfo
 

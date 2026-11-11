@@ -1,13 +1,15 @@
 # Quran Reader — Arabic + Roman Urdu Kanzul Iman
 
-**Private proof of concept — Surah An-Nur (24).** This is a real Vite/React/TypeScript reader implementation with a searchable **114-Surah index**, an Ayat-level Arabic/Roman-Urdu layout, UI controls, bookmarking, and alignment-validation tooling.
+This is a Vite/React/TypeScript Quran reader with a searchable **114-Surah index**,
+an ayah-level Arabic/Roman-Urdu layout, UI controls, bookmarking, and
+alignment-validation tooling.
 
 ## Important status
 
 - ✅ All 114 Surah names and standard Ayat counts indexed (6,236 Ayat in total).
-- ✅ An-Nur two-Ayat *source excerpt* preview for testing alignment **layout**.
+- ✅ Complete 6,236-ayah QPC Hafs Arabic corpus, indexed as `surah:ayah`.
+- ✅ An-Nur two-Ayat *source excerpt* preview for testing Roman Urdu alignment **layout**.
 - ✅ Exact `surah:ayah` identifiers, duplicate/missing-ID validation, unverified flags.
-- ⚠️ Complete Arabic text not yet imported; see Tanzil import script.
 - ⚠️ Complete Roman Urdu dataset not imported, and rights to redistribute it are unconfirmed.
 - ⚠️ No translation misalignment has yet been conclusively diagnosed in the source HTML. Candidate extractor is deliberately conservative.
 - ⚠️ This is not a verified Quran publication. Do not represent it as such.
@@ -29,13 +31,14 @@ python scripts/validate_alignment.py data/an-nur.sample.json --complete
 ```
 The final `--complete` command is **expected to fail**: 62 An-Nur verses are missing.
 
-## Arabic corpus import
+## Arabic corpus
 
-1. Download **Tanzil** Quran text from https://tanzil.net/download/ after reviewing its terms. Choose plain `surah|ayah|Arabic` format, preserving all marks. Do not modify the Arabic text.
-2. Run `python scripts/import_tanzil.py /path/to/tanzil.txt`.
-3. The importer rejects a corpus unless it has exactly 6,236 valid unique keys.
-4. Merge source text with properly authorized Roman Urdu records by **exact ID**, not array position. The importer is separated intentionally until source rights/data are settled.
-5. For any publication containing substantial Tanzil material include its required notice and link. See https://tanzil.net/docs/Text_License.
+The committed corpus is QPC Hafs (KFGQPC) from Qur'anpedia's versioned
+`mushafs-2` dump. Its public reuse terms and required source credit are recorded
+in [docs/ARABIC_SOURCE.md](docs/ARABIC_SOURCE.md) and in the corpus metadata.
+It has 6,236 unique, continuous `surah:ayah` keys; Arabic strings are retained
+verbatim. Merge an authorized Roman Urdu source by **exact ID**, never by array
+position.
 
 ## Local HTML candidate investigation
 
