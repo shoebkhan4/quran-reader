@@ -31,6 +31,19 @@
 .bismillah-translation p { font-size: 15px; margin: 7px 0 0; }
 .bismillah-translation.urdu p { font-family: 'Noto Nastaliq Urdu', serif; line-height: 2.1; }
 
+.translation {
+  background: #f2f6fb;
+  border-left: 3px solid #5b82aa;
+  border-radius: 0 10px 10px 0;
+  padding: 13px 16px;
+}
+
+.translation-label { color: #416d99; }
+.translation p { color: #294f74; }
+.dark .translation { background: #1b3042; border-color: #79a9d5; }
+.dark .translation-label { color: #9dccf1; }
+.dark .translation p { color: #e0effd; }
+
 @media (max-width: 460px) {
   .translation-switch { width: 100%; }
   .translation-switch button { flex: 1; }
