@@ -1,0 +1,16 @@
+{
+  "surah": 1,
+  "source_page": "https://www.alahazratnetwork.org/surah/al-fatiha/",
+  "source_archive": "User-provided Surah 1.mhtml",
+  "license": "Public domain, as confirmed by the project owner on 2026-11-12.",
+  "note": "Urdu text was extracted from q-urdu-content in rows v1-v7. The source page's q-roman-content was not used because it was shifted by one row. Roman Urdu below is a review transliteration generated from the aligned Urdu records.",
+  "verses": [
+    {"id":"1:1","surah":1,"ayah":1,"urdu":"اللہ کے نام سے شروع جو بہت مہربان رحمت والا","roman_urdu":"Allah ke naam se shuru jo bohat meherban rehmat wala","review_status":"roman_transliteration_review_required"},
+    {"id":"1:2","surah":1,"ayah":2,"urdu":"سب خوبیاں اللہ کو جو مالک سارے جہان والوں کا","roman_urdu":"Sab khoobiyaan Allah ko jo Maalik saare jahaan walon ka","review_status":"roman_transliteration_review_required"},
+    {"id":"1:3","surah":1,"ayah":3,"urdu":"بہت مہربان رحمت والا","roman_urdu":"Bohat meherban rehmat wala","review_status":"roman_transliteration_review_required"},
+    {"id":"1:4","surah":1,"ayah":4,"urdu":"روز جزا کا مالک،","roman_urdu":"Roz-e-Jaza ka Maalik","review_status":"roman_transliteration_review_required"},
+    {"id":"1:5","surah":1,"ayah":5,"urdu":"ہم تجھی کو پوجیں اور تجھی سے مدد چاہیں","roman_urdu":"Hum tujhi ko poojen aur tujhi se madad chaahein","review_status":"roman_transliteration_review_required"},
+    {"id":"1:6","surah":1,"ayah":6,"urdu":"ہم کو سیدھا راستہ چلا،","roman_urdu":"Hum ko seedha raasta chala","review_status":"roman_transliteration_review_required"},
+    {"id":"1:7","surah":1,"ayah":7,"urdu":"راستہ ان کا جن پر تو نے احسان کیا۔نہ ان کا جن پر غضب ہوا اور نہ بہکے ہوؤں کا","roman_urdu":"Raasta un ka jin par tu ne ehsaan kiya. Na un ka jin par ghazab hua aur na bhatke huon ka","review_status":"roman_transliteration_review_required"}
+  ]
+}

@@ -1,0 +1,37 @@
+.translation-switch {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.translation-switch button {
+  background: transparent;
+  border: 0;
+  border-radius: 7px;
+  color: var(--muted);
+  font-size: 11px;
+  padding: 8px 10px;
+}
+
+.translation-switch button.selected {
+  background: var(--soft);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.bismillah-translation {
+  border-top: 1px solid #d6e5d8;
+  margin-top: 13px;
+  padding-top: 11px;
+}
+
+.bismillah-translation p { font-size: 15px; margin: 7px 0 0; }
+.bismillah-translation.urdu p { font-family: 'Noto Nastaliq Urdu', serif; line-height: 2.1; }
+
+@media (max-width: 460px) {
+  .translation-switch { width: 100%; }
+  .translation-switch button { flex: 1; }
+}
