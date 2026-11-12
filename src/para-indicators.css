@@ -1,0 +1,19 @@
+.ayah-location {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.para-number {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+}
+
+@media (max-width: 460px) {
+  .para-number {
+    font-size: 9px;
+  }
+}
