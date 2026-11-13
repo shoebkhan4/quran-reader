@@ -32,3 +32,9 @@ class ParaTranslationReviewTest(unittest.TestCase):
             self.assertEqual(verses[-1]['id'], last_id)
             self.assertEqual(len({verse['id'] for verse in verses}), count)
             self.assertTrue(all(verse['urdu'] and verse['roman_urdu'] for verse in verses))
+
+    def test_user_verified_roman_correction_is_not_auto_romanized(self):
+        document = json.loads((ROOT / 'data/para-11.translation.review.json').read_text(encoding='utf-8'))
+        verse = next(verse for verse in document['verses'] if verse['id'] == '9:129')
+        self.assertEqual(verse['review_status'], 'user_verified')
+        self.assertIn('munh phere', verse['roman_urdu'])
