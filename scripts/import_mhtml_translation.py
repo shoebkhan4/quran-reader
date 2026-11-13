@@ -101,6 +101,8 @@ def juz_ids(juz):
     result = []
     while end is None or (surah, ayah) < (end['surah'], end['ayah']):
         result.append((surah, ayah))
+        if surah == 114 and ayah == VERSE_COUNTS[114]:
+            break
         surah, ayah = next_ayah(surah, ayah)
     return result
 

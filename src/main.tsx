@@ -23,6 +23,16 @@ import para17Translation from '../data/para-17.translation.review.json';
 import para18Translation from '../data/para-18.translation.review.json';
 import para19Translation from '../data/para-19.translation.review.json';
 import para20Translation from '../data/para-20.translation.review.json';
+import para21Translation from '../data/para-21.translation.review.json';
+import para22Translation from '../data/para-22.translation.review.json';
+import para23Translation from '../data/para-23.translation.review.json';
+import para24Translation from '../data/para-24.translation.review.json';
+import para25Translation from '../data/para-25.translation.review.json';
+import para26Translation from '../data/para-26.translation.review.json';
+import para27Translation from '../data/para-27.translation.review.json';
+import para28Translation from '../data/para-28.translation.review.json';
+import para29Translation from '../data/para-29.translation.review.json';
+import para30Translation from '../data/para-30.translation.review.json';
 import arabicCorpus from '../data/quran-qpc-hafs.json';
 import {BISMILLAH, getJuzForAyah, getJuzRangeForSurah, hasOpeningBismillah, isSajdahAyah} from '../data/quran-metadata';
 import './styles.css';
@@ -55,6 +65,16 @@ const translationsById = new Map(([
   ...(para18Translation.verses as SampleTranslation[]),
   ...(para19Translation.verses as SampleTranslation[]),
   ...(para20Translation.verses as SampleTranslation[]),
+  ...(para21Translation.verses as SampleTranslation[]),
+  ...(para22Translation.verses as SampleTranslation[]),
+  ...(para23Translation.verses as SampleTranslation[]),
+  ...(para24Translation.verses as SampleTranslation[]),
+  ...(para25Translation.verses as SampleTranslation[]),
+  ...(para26Translation.verses as SampleTranslation[]),
+  ...(para27Translation.verses as SampleTranslation[]),
+  ...(para28Translation.verses as SampleTranslation[]),
+  ...(para29Translation.verses as SampleTranslation[]),
+  ...(para30Translation.verses as SampleTranslation[]),
 ]).map(verse=>[verse.id,verse]));
 const versesBySurah = new Map<number, Ayah[]>();
 (arabicCorpus.verses as ArabicAyah[]).forEach(verse=>{

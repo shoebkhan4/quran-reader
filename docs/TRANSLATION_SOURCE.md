@@ -10,11 +10,11 @@ The Urdu records in `data/al-fatiha.translation.review.json`,
 confirmed the source is public domain on 12 November 2026.
 
 `data/para-4.translation.review.json` through
-`data/para-20.translation.review.json` were extracted from the supplied
-Para 4–20 MHTML archives. Their ayah IDs are generated only after every source
-row's Arabic marker matches the standard Para sequence. This captures complete
-review coverage for Surahs An-Nisa through Al-Anfal, and partial coverage at
-the surrounding surah boundaries.
+`data/para-30.translation.review.json` were extracted from the supplied
+Para 4–30 MHTML archives. Their ayah IDs are generated only after every source
+row's Arabic marker matches the source Para sequence. This captures complete
+review coverage from Surah An-Nisa through Surah An-Nas, with only the earlier
+Surah Al-Baqarah/Al-e-Imran boundary supplied separately.
 
 For Al-Fatiha, the page's `q-roman-content` is deliberately excluded: it is
 shifted by one row (for example, row `v1` contains the Bismillah Urdu text but

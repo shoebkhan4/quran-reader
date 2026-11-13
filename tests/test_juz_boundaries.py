@@ -18,5 +18,6 @@ class JuzBoundaryTest(unittest.TestCase):
         self.assertEqual(boundaries[13], {'juz': 14, 'surah': 15, 'ayah': 2})
         self.assertEqual(boundaries[19], {'juz': 20, 'surah': 27, 'ayah': 60})
         self.assertEqual(boundaries[20], {'juz': 21, 'surah': 29, 'ayah': 45})
+        self.assertEqual(boundaries[22], {'juz': 23, 'surah': 36, 'ayah': 22})
         self.assertEqual(boundaries[17], {'juz': 18, 'surah': 23, 'ayah': 1})
         self.assertEqual(boundaries[-1], {'juz': 30, 'surah': 78, 'ayah': 1})
