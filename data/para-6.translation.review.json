@@ -1,0 +1,897 @@
+{
+  "juz": 6,
+  "source_page": "https://www.alahazratnetwork.org/surah/al-fatiha/?juz=6",
+  "source_archive": "para 6.mhtml",
+  "license": "Public domain, as confirmed by the project owner on 2026-11-12.",
+  "note": "Urdu and Roman Urdu were extracted from source rows whose Arabic markers matched their expected ayah IDs. Roman Urdu remains a review field until verse-by-verse review is completed.",
+  "verses": [
+    {
+      "id": "4:148",
+      "surah": 4,
+      "ayah": 148,
+      "urdu": "اللہ پسند نہیں کرتا بری بات کا اعلان کرنا (ف۳۷٤) مگر مظلوم سے (ف۳۷۵) اور اللہ سنتا جانتا ہے،",
+      "roman_urdu": "Allah pasand nahi karta buri baat ka ailan karna magar mazloom se aur Allah sunta jaanta hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:149",
+      "surah": 4,
+      "ayah": 149,
+      "urdu": "اگر تم کوئی بھلائی اعلانیہ کرو یا چھپ کر یا کسی کی برائی سے درگزرو تو بیشک اللہ معاف کرنے والا قدرت والا ہے (ف۳۷٦)",
+      "roman_urdu": "Agar tum koi bhalai aelaniya karo ya chup kar ya kisi ki burai se dar guzar do to beshak Allah maaf karne wala qudrat wala hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:150",
+      "surah": 4,
+      "ayah": 150,
+      "urdu": "وہ جو اللہ اور اس کے رسولوں کو نہیں مانتے اور چاہتے ہیں کہ اللہ سے اس کے رسولوں کو جدا کردیں (ف۳۷۷) اور کہتے ہیں ہم کسی پر ایمان لائے اور کسی کے منکر ہوئے (ف۳۷۸) اور چاہتے ہیں کہ ایمان و کفر کے بیچ میں کوئی راہ نکال لیں",
+      "roman_urdu": "Woh jo Allah aur uske Rasoolon ko nahi maante aur chahte hain ke Allah se uske Rasoolon ko juda kar dein aur kahte hain hum kisi par imaan laaye aur kisi ke munkir hue aur chahte hain ke imaan o kufr ke beech mein koi raah nikal lein,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:151",
+      "surah": 4,
+      "ayah": 151,
+      "urdu": "یہی ہیں ٹھیک ٹھیک کافر (ف۳۷۹) اور ہم نے کافروں کے لئے ذلت کا عذاب تیار کر رکھا ہے،",
+      "roman_urdu": "Yahi hain theek theek kafir aur humne kafiron ke liye zillat ka azaab tayyar kar rakha hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:152",
+      "surah": 4,
+      "ayah": 152,
+      "urdu": "اور وہ جو اللہ اور اس کے سب رسولوں پر ایمان لائے اور ان میں سے کسی پر ایمان میں فرق نہ کیا انہیں عنقریب اللہ ان کے ثواب دے گا (ف۳۸۰) اور اللہ بخشنے والا مہربان ہے (ف۳۸۱)",
+      "roman_urdu": "Aur woh jo Allah aur uske sab Rasoolon par imaan laaye aur unmein se kisi par imaan mein farq na kiya unhein anqareeb Allah unke sawaab dega aur Allah bakhshne wala meherbaan hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:153",
+      "surah": 4,
+      "ayah": 153,
+      "urdu": "اے محبوب! اہل کتاب (ف۳۸۲) تم سے سوال کرتے ہیں کہ ان پر آسمان سے ایک کتاب اتاردو (ف۳۸۳) تو وہ تو موسیٰ سے اس سے بھی بڑا سوال کرچکے (ف۳۸٤) کہ بولے ہمیں اللہ کو اعلانیہ دکھا دو تو انہیں کڑک نے آ لیا ان کے گناہوں پر پھر بچھڑا لے بیٹھے (ف۳۸۵) بعد اس کے لئے روشن آیتیں (۳۸٦) ان کے پاس آچکیں تو ہم نے یہ معاف فرمادیا (ف۳۸۷) اور ہم نے موسیٰ کو روشن غلبہ دیا (ف۳۸۸)",
+      "roman_urdu": "Ae Mehboob! Ahl-e-Kitaab tumse sawal karte hain ke un par aasman se ek kitaab utaar do to woh to Musa se isse bhi bada sawal kar chuke ke bole humein Ilaah ko aelaniya dikha do to unhein kadak ne aa liya unke gunahon par phir bachhra le baithe baad iske ke unke liye roshan aayatein unke paas aa chukin to humne yeh maaf farma diya aur humne Musa ko roshan ghalba diya,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:154",
+      "surah": 4,
+      "ayah": 154,
+      "urdu": "پھر ہم نے ان پر طور کو اونچا کیا ان سے عہد لینے کو اور ان سے فرمایا کہ دروازے میں سجدہ کرتے داخل ہو اور ان سے فرمایا کہ ہفتہ میں حد سے نہ بڑھو (ف۳۸۹) اور ہم نے ان سے گاڑھا عہد لیا (ف۳۹۰)",
+      "roman_urdu": "Phir humne un par Toor ko ooncha kiya unse ahad lene ko aur unse farmaya ke darwaze mein sajda karte daakhil ho aur unse farmaya ke haftay mein had se na badho aur humne unse gaadha ahad liya,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:155",
+      "surah": 4,
+      "ayah": 155,
+      "urdu": "تو ان کی کیسی بدعہدیوں کے سبب ہم نے ان پر لعنت کی اور اس لئے کہ وہ آیات الٰہی کے منکر ہوئے (ف۳۹۱) اور انبیاء کو ناحق شہید کرتے (ف۳۹۲) اور ان کے اس کہنے پر کہ ہمارے دلوں پر غلاف ہیں (ف۳۹۳) بلکہ اللہ نے ان کے کفر کے سبب ان کے دلوں پر مہر لگادی ہے تو ایمان نہیں لاتے مگر تھوڑے،",
+      "roman_urdu": "To unki kesi bad ahdiyon ke sabab humne unpar laanat ki aur isliye ke woh aayaat-e-Ilahi ke munkir hue aur Anbiya ko na-haq shaheed karte aur unke is kehne par ke hamare dilon par ghilaaf hain, balki Allah ne unke kufr ke sabab unke dilon par mohar laga di hai to imaan nahi laate magar thode,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:156",
+      "surah": 4,
+      "ayah": 156,
+      "urdu": "اور اس لئے کہ انہوں نے کفر کیا (ف۳۹٤) اور مریم پر بڑا بہتان اٹھایا،",
+      "roman_urdu": "Aur isliye ke unhone kufr kiya aur Maryam par bada bohtan uthaya,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:157",
+      "surah": 4,
+      "ayah": 157,
+      "urdu": "اور ان کے اس کہنے پر کہ ہم نے مسیح عیسیٰ بن مریم اللہ کے رسول کو شہید کیا (ف۳۹۵) اور ہے یہ کہ انہوں نے نہ اسے قتل (۱۵۷) کیا اور نہ اسے سولی دی بلکہ ان کے لئے ان کی شبیہ کا ایک بنادیا گیا (ف۳۹٦) اور وہ جو اس کے بارہ میں اختلاف کر رہے ہیں ضرور اس کی طرف سے شبہ میں پڑے ہوئے ہیں (ف۳۹۷) انہیں اس کی کچھ بھی خبر نہیں (ف۳۹۸) مگر یہی گمان کی پیروی (ف۳۹۹) اور بیشک انہوں نے اس کو قتل نہیں کیا (ف٤۰۰)",
+      "roman_urdu": "Aur unke is kehne par ke humne Masiih Isa bin Maryam Allah ke Rasool ko shaheed kiya aur hai yeh ke unhone na use qatal kiya aur na use sooli di balki unke liye unki shabih ka ek bana diya gaya aur woh jo uske bare mein ikhtilaaf kar rahe hain zaroor uski taraf se shakk mein pade hue hain unhein uski kuch bhi khabar nahi magar yahi gumaan ki pairwi aur beshak unhone usko qatal nahi kiya,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:158",
+      "surah": 4,
+      "ayah": 158,
+      "urdu": "بلکہ اللہ نے اسے اپنی طرف اٹھالیا (ف٤۰۱) اور اللہ غالب حکمت والا ہے،",
+      "roman_urdu": "Balki Allah ne use apni taraf utha liya aur Allah ghalib hikmat wala hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:159",
+      "surah": 4,
+      "ayah": 159,
+      "urdu": "کوئی کتابی ایسا نہیں جو اس کی موت سے پہلے اس پر ایمان نہ لائے (ف٤۰۲) اور قیامت کے دن وہ ان پر گواہ ہوگا (ف٤۰۳)",
+      "roman_urdu": "Koi kitaabi aisa nahi jo uski maut se pehle us par imaan na laaye aur qayamat ke din woh unpar gawah hoga,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:160",
+      "surah": 4,
+      "ayah": 160,
+      "urdu": "تو یہودیوں کے بڑے ظلم کے (ف٤۰٤) سبب ہم نے وہ بعض ستھری چیزیں کہ ان کے لئے حلال تھیں (ف٤۰۵) ان پر حرام فرمادیں اور اس لئے کہ انہوں نے بہتوں کو اللہ کی راہ سے روکا،",
+      "roman_urdu": "To Yahoodiyon ke bade zulm ke sabab humne woh baaz suthri cheezein ke unke liye halal thin unpar haraam farma di aur isliye ke unhone bahuton ko Allah ki raah se roka,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:161",
+      "surah": 4,
+      "ayah": 161,
+      "urdu": "اور اس لئے کہ وہ سود لیتے حالانکہ وہ اس سے منع کیے گئے تھے اور لوگوں کا مال ناحق کھا جاتے (ف٤۰٦) اور ان میں جو کافر ہوئے ہم نے ان کے لئے دردناک عذاب تیار کر رکھا ہے،",
+      "roman_urdu": "Aur isliye ke woh sood lete halanke woh usse mana kiye gaye the aur logon ka maal na-haq kha jaate aur unmein jo kafir hue humne unke liye dardnaak azaab tayyar kar rakha hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:162",
+      "surah": 4,
+      "ayah": 162,
+      "urdu": "ہاں جو ان میں علم کے پکے (ف٤۰۷) اور ایمان والے ہیں وہ ایمان لاتے ہیں اس پر جو اے محبوب تمہاری طرف اترا اور جو تم سے پہلے اترا (ف٤۰۸) اور نماز قائم رکھنے والے اور زکوٰة دینے والے اور اللہ اور قیامت پر ایمان لانے والے ایسوں کو عنقریب ہم بڑا ثواب دیں گے،",
+      "roman_urdu": "Haan jo unmein ilm ke pakke aur imaan wale hain woh imaan laate hain is par jo Ae Mehboob tumhari taraf utara aur jo tumse pehle utara aur namaaz qaim karne wale aur zakat dene wale aur Allah aur qayamat par imaan laane wale aison ko anqareeb hum bada sawab denge,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:163",
+      "surah": 4,
+      "ayah": 163,
+      "urdu": "بیشک اے محبوب! ہم نے تمہاری طرف وحی بھیجی جیسے دحی نوح اور اس کے بعد پیغمبروں کو بھیجی (ف٤۰۹) اور ہم نے ابراہیم اور اسمٰعیل اور اسحاق اور یعقوب اور ان کے بیٹوں اور عیسیٰ اور ایوب اور یونس اور ہارون اور سلیمان کو وحی کی اور ہم نے داؤد کو زبور عطا فرمائی",
+      "roman_urdu": "Beshak Ae Mehboob! humne tumhari taraf wahi bheji jaise wahi Nuh aur uske baad Paighambaron ko bheji aur humne Ibraheem aur Ismail aur Ishaq aur Yaqub aur unke beton aur Isa aur Ayub aur Yunus aur Haroon aur Sulaiman ko wahi ki aur humne Dawood ko Zaboor ata farmai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:164",
+      "surah": 4,
+      "ayah": 164,
+      "urdu": "اور رسولوں کو جن کا ذکر آگے ہم تم سے (ف٤۱۰) فرماچکے اور ان رسولوں کو جن کا ذکر تم سے نہ فرمایا (ف٤۱۱) اور اللہ نے موسیٰ سے حقیقتاً کلام فرمایا (ف٤۱۲)",
+      "roman_urdu": "Aur Rasoolon ko jin ka zikr aage hum tumse farma chuke aur un Rasoolon ko jin ka zikr tumse na farmaaya aur Allah ne Musa se haqiqatan kalaam farmaaya,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:165",
+      "surah": 4,
+      "ayah": 165,
+      "urdu": "رسول خوشخبری دیتے (ف٤۱۳) اور ڈر سناتے (ف٤۱٤) کہ رسولوں کے بعد اللہ کے یہاں لوگوں کو کوئی عذر نہ رہے (ف٤۱۵) اور اللہ غالب حکمت والا ہے،",
+      "roman_urdu": "Rasool khushkhabri dete aur darr sunate ke Rasoolon ke baad Allah ke yahan logon ko koi uzr na rahe aur Allah ghalib hikmat wala hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:166",
+      "surah": 4,
+      "ayah": 166,
+      "urdu": "لیکن اے محبوب! اللہ اس کا گواہ ہے جو اس نے تمہاری طرف اتارا وہ اس نے اپنے علم سے اتارا ہے اور فرشتے گواہ ہیں اور اللہ کی گواہی کافی،",
+      "roman_urdu": "Lekin Ae Mehboob! Allah iska gawah hai jo usne tumhari taraf utaara woh usne apne ilm se utaara hai aur farishte gawah hain aur Allah ki gawahi kaafi,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:167",
+      "surah": 4,
+      "ayah": 167,
+      "urdu": "وہ جنہوں نے کفر کیا (ف٤۱٦) اور اللہ کی راہ سے روکا (ف٤۱۷) بیشک وہ دور کی گمراہی میں پڑے،",
+      "roman_urdu": "Woh jinhon ne kufr kiya aur Allah ki raah se roka beshak woh door ki gumraahi mein pade,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:168",
+      "surah": 4,
+      "ayah": 168,
+      "urdu": "بیشک جنہوں نے کفر کیا (ف۳۱۸) اور حد سے بڑھے (ف٤۱۹) اللہ ہرگز انہیں نہ بخشے گا (ف٤۲۰) اور نہ انہیں کوئی راہ دکھائے،",
+      "roman_urdu": "Beshak jinhon ne kufr kiya aur had se badhe Allah hargiz unhein na bakhshega aur na unhein koi raah dikhaye,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:169",
+      "surah": 4,
+      "ayah": 169,
+      "urdu": "مگر جہنم کا راستہ کہ اس میں ہمیشہ ہمیشہ رہیتں گے اور یہ اللہ   کو آسان ہے،",
+      "roman_urdu": "Magar jahannam ka rasta ke usmein hamesha hamesha rahenge aur yeh Allah ko aasaan hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:170",
+      "surah": 4,
+      "ayah": 170,
+      "urdu": "اے لوگو! تمہارے پاس یہ رسول (ف٤۲۱) حق کے ساتھ تمہارے رب کی طرف سے تشریف لائے تو ایمان لاؤ اپنے بھلے کو اور اگر تم کفر کرو (ف٤۲۲) تو بیشک اللہ ہی کا ہے جو کچھ آسمانوں اور زمین میں ہے، اور اللہ علم و حکمت والا ہے،",
+      "roman_urdu": "Ae logon! tumhare paas yeh Rasool haq ke saath tumhare Rab ki taraf se tashreef laaye to imaan lao apne bhale ko aur agar tum kufr karo to beshak Allah hi ka hai jo kuch aasmanon aur zameen mein hai, aur Allah ilm o hikmat wala hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:171",
+      "surah": 4,
+      "ayah": 171,
+      "urdu": "اے کتاب والو! اپنے دین میں زیادتی نہ کرو (ف٤۲۳) اور اللہ پر نہ کہو مگر سچ (ف٤۲٤) مسیح عیسیٰ مریم کا بیٹا (ف٤۲۵) اللہ کا رسول ہی ہے اور اس کا ایک کلمہ (ف٤۲٦) کہ مریم کی طرف بھیجا اور اس کے یہاں کی ایک روح تو اللہ اور اس کے رسولوں پر ایمان لاؤ (ف٤۲۷) اور تین نہ کہو (ف٤۲۸) باز رہو اپنے بھلے کو اللہ تو ایک ہی خدا ہے (ف٤۲۹) پاکی اسے اس سے کہ اس کے کوئی بچہ ہو اسی کا مال ہے جو کچھ آسمانوں میں ہے اور جو کچھ زمین میں ہے (ف٤۳۰) اور اللہ کافی کارساز،",
+      "roman_urdu": "Ae Kitaab walo! apne deen mein ziyadati na karo aur Allah par na kaho magar sach, Masiih Isa Maryam ka beta Allah ka Rasool hi hai aur uska ek kalma ke Maryam ki taraf bheja aur uske yahan ki ek rooh to Allah aur uske Rasoolon par imaan lao aur teen na kaho baaz raho apne bhale ko Allah to ek hi Khuda hai paaki usse is se ke uska koi bachcha ho, usi ka maal hai jo kuch aasmanon mein hai aur jo kuch zameen mein hai aur Allah kaafi kaar-saz,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:172",
+      "surah": 4,
+      "ayah": 172,
+      "urdu": "مسیح اللہ کا بندہ بننے سے کچھ نفرت نہیں کرتا (ف٤۳۱) اور نہ مقرب فرشتے اور جو اللہ کی بندگی سے نفرت اور تکبر کرے تو کوئی دم جاتا ہے کہ وہ ان سب کو اپنی طرف ہانکے گا (ف٤۳۲)",
+      "roman_urdu": "Masiih Allah ka banda banne se kuch nafrat nahi karta aur na muqarrab farishte aur jo Allah ki bandagi se nafrat aur takabbur kare to koi dam jaata hai ke woh un sab ko apni taraf haanke ga,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:173",
+      "surah": 4,
+      "ayah": 173,
+      "urdu": "تو وہ جو ایمان لائے اور اچھے کام کیے ان کی مزدوری انہیں بھرپور دے کر اپنے فضل سے انہیں اور زیادہ دے گا اور وہ جنہوں نے (ف٤۳۳) نفرت اور تکبر کیا تھا انہیں دردناک سزا دے گا اور اللہ کے سوا نہ اپنا کوئی حمایتی پائیں گے نہ مددگار،",
+      "roman_urdu": "To woh jo imaan laaye aur acche kaam kiye unki mazdoori unhein bharpoor de kar apne fazl se unhein aur zyada dega aur woh jinhon ne nafrat aur takabbur kiya tha unhein dardnaak saza dega aur Allah ke siwa na apna koi himayati paayenge na madadgaar,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:174",
+      "surah": 4,
+      "ayah": 174,
+      "urdu": "اے لوگو! بیشک تمہارے پاس اللہ کی طرف سے واضح دلیل آئی (ف٤۳٤) اور ہم نے تمہاری طرف روشن نور اتارا (ف٤۳۵)",
+      "roman_urdu": "Ae logon! beshak tumhare paas Allah ki taraf se wazeh daleel aayi aur humne tumhari taraf roshan noor utaara,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:175",
+      "surah": 4,
+      "ayah": 175,
+      "urdu": "تو وہ جو اللہ پر ایمان لائے اور اس کی رسی مضبوط تھامی تو عنقریب اللہ انہیں اپنی رحمت اور اپنے فضل میں داخل کرے گا (ف٤۳٦) اور انہیں اپنی طرف سیدھی راہ دکھائے گا،",
+      "roman_urdu": "To woh jo Allah par imaan laaye aur uski rassi mazboot thaami to anqareeb Allah unhein apni rehmat aur apne fazl mein daakhil karega aur unhein apni taraf seedhi raah dikhayega,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "4:176",
+      "surah": 4,
+      "ayah": 176,
+      "urdu": "اے محبوب! تم سے فتویٰ پوچھتے ہیں تم فرمادو کہ اللہ تمہیں کلالہ (ف٤۳۷) میں فتویٰ دیتا ہے، اگر کسی مرد کا انتقال ہو جو بے اولاد ہے (ف٤۳۸) اور اس کی ایک بہن ہو تو ترکہ میں اس کی بہن کا آدھا ہے (ف٤۳۹) اور مرد اپنی بہن کا وارث ہوگا اگر بہن کی اولاد نہ ہو (ف٤٤۰) پھر اگر دو بہنیں ہوں ترکہ میں ان کا دو تہائی اور اگر بھائی بہن ہوں مرد بھی اور عورتیں بھی تو مرد کا حصہ دو عورتوں کے برابر، اللہ تمہارے لئے صاف بیان فرماتا ہے کہ کہیں بہک نہ جاؤ، اور اللہ ہر چیز جانتا ہے،",
+      "roman_urdu": "Ae Mehboob! tumse fatwa poochhte hain tum farma do ke Allah tumhein kalalah mein fatwa deta hai, agar kisi mard ka inteqaal ho jo be-olaad hai aur uski ek behen ho to tarkah mein uski behen ka aadha hai aur mard apni behen ka waaris hoga agar behen ki aulaad na ho phir agar do behnein hon to tarkah mein unka do-tihai aur agar bhai behen hon mard bhi aur auratein bhi to mard ka hissa do auraton ke barabar, Allah tumhare liye saaf bayan farmaata hai ke kahin behak na jao, aur Allah har cheez jaanta hai.\",",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:1",
+      "surah": 5,
+      "ayah": 1,
+      "urdu": "اے ایمان والو! اپنے قول پورے کرو (ف۲) تمہارے لئے حلال ہوئے بےزبان مویشی مگر وہ جو آگے سنایا جائے گا تم کو (ف۳) لیکن شکار حلال نہ سمجھو جب تم احرام میں ہو (ف٤) بیشک اللہ حکم فرماتا ہے جو چاہے،",
+      "roman_urdu": "Ae imaan walon! apne qoul poore karo, tumhare liye halal hue be-zubaan mawashi magar woh jo aage sunaya jaayega tum ko, lekin shikar halal na samjho jab tum ehraam mein ho, beshak Allah hukum farmaata hai jo chahe,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:2",
+      "surah": 5,
+      "ayah": 2,
+      "urdu": "اے ایمان والو! حلال نہ ٹھہرالو اللہ کے نشان (ف۵) اور نہ ادب والے مہینے (ف٦) اور نہ حرم کو بھیجی ہوئی قربانیاں اور نہ (ف۷) جن کے گلے میں علامتیں آویزاں (ف۸) اور نہ ان کا مال و آبرو جو عزت والے گھر کا قصد کرکے آئیں (ف۹) اپنے رب کا فضل اور اس کی خوشی چاہتے اور جب احرام سے نکلو تو شکار کرسکتے ہو (ف۱۰) اور تمہیں کسی قوم کی عداوت کہ انہوں نے تم کو مسجد حرام سے روکا تھا، زیادتی کرنے پر نہ ابھارے (ف۱۱) اور نیکی اور پرہیزگاری پر ایک دوسرے کی مدد کرو اور گناہ اور زیادتی پر باہم مدد نہ دو (ف۱۲) اور اللہ سے ڈرتے رہو بیشک اللہ کا عذاب سخت ہے،",
+      "roman_urdu": "Ae imaan walon! halal na thehra lo Allah ke nishan aur na adab wale maheenay aur na haram ko bheji hui qurbanian aur na jin ke galle mein alamaten aawzaan aur na unka maal o aabroo jo izzat wale ghar ka qasd kar ke aayein apne Rab ka fazl aur uski khushi chahte aur jab ehraam se niklo to shikar kar sakte ho aur tumhein kisi qaum ki adawat ke unhone tum ko Masjid-e-Haram se roka tha, ziadti karne par na ubhaaro aur neki aur parhezgaari par ek doosre ki madad karo aur gunah aur ziadti par baaham madad na do aur Allah se darte raho, beshak Allah ka azaab sakht hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:3",
+      "surah": 5,
+      "ayah": 3,
+      "urdu": "تم پر حرام ہے (ف۱۳) مردار اور خون اور سور کا گوشت اور وہ جس کے ذبح میں غیر خدا کا نام پکارا گیا اور جو گلا گھونٹنے سے مرے اور بےدھار کی چیز سے مارا ہوا اور جو گر کر مرا اور جسے کسی جانور نے سینگ مارا اور جسے کوئی درندہ کھا گیا مگر جنہیں تم ذبح کرلو، اور جو کسی تھان پر ذبح کیا گیا اور پانسے ڈال کر بانٹا کرنا یہ گناہ کا کام ہے، آج تمہارے دین کی طرف سے کافروں کی آس نوٹ گئی (ف۱٤) تو ان سے نہ ڈرو اور مجھ سے ڈرو آج میں نے تمہارے لئے دین کامل کردیا (ف۱۵) اور تم پر اپنی نعمت پوری کردی (ف۱٦) اور تمہارے لئے اسلام کو دین پسند کیا (ف۱۷) تو جو بھوک پیاس کی شدت میں ناچار ہو یوں کہ گناہ کی طرف نہ جھکے (ف۱۸) تو بیشک اللہ بخشنے والا مہربان ہے،",
+      "roman_urdu": "Tum par haram hai murdar aur khoon aur soor ka gosht aur woh jis ke dhabih mein ghair Khuda ka naam pukara gaya aur jo gala ghoontne se mare aur be-dhaar ki cheez se maara hua aur jo gir kar mara aur jise kisi janwar ne seeng maara aur jise koi darinda kha gaya magar jinhein tum dhabih kar lo, aur jo kisi thaan par dhabih kiya gaya aur paansay daal kar baanta, karna yeh gunah ka kaam hai, aaj tumhare deen ki taraf se kafiron ki aas note gayi to unse na daro aur mujh se daro, aaj maine tumhare liye deen kaamil kar diya aur tum par apni naimat poori kar di aur tumhare liye Islam ko deen pasand kiya, to jo bhook pyaas ki shiddat mein naachaar ho yun ke gunah ki taraf na jhuke to beshak Allah bakhshne wala meherban hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:4",
+      "surah": 5,
+      "ayah": 4,
+      "urdu": "اے محبوب! تم سے پوچھتے ہیں کہ ان کے لئے کیا حلال ہوا تم فرمادو کہ حلال کی گئیں تمہارے لئے پاک چیزیں (ف۱۹) اور جو شکاری جانور تم نے سدھالیے (ف۲۰) انہیں شکار پر دوڑاتے جو علم تمہیں خدا نے دیا اس سے انہیں سکھاتے تو کھاؤ اس میں سے جو وہ مار کر تمہارے لیے رہنے دیں (ف۲۱) اور اس پر اللہ کا نام لو (ف۲۲) اور اللہ سے ڈرتے رہو بیشک اللہ کو حساب کرتے دیر نہیں لگتی،",
+      "roman_urdu": "Ae Mehboob! tum se poochhte hain ke unke liye kya halal hua, tum farma do ke halal ki gayi tumhare liye paak cheezein aur jo shikari janwar tumne sidha liye unhein shikar par dauraate jo ilm tumhein Khuda ne diya us se unhein sikhate, to khao is mein se jo woh maar kar tumhare liye rehne dein aur is par Allah ka naam lo aur Allah se darte raho, beshak Allah ko hisaab karne mein deri nahi lagti,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:5",
+      "surah": 5,
+      "ayah": 5,
+      "urdu": "آج تمہارے لئے پاک چیزیں حلال ہوئیں، اور کتابیوں کا کھانا (ف۲۳) تمہارے لیے حلال ہوا، اور تمہارا کھانا ان کے لئے حلال ہے، اور پارسا عورتیں مسلمان (ف۲٤) اور پارسا عورتیں ان میں سے جن کو تم سے پہلے کتاب ملی جب تم انہیں ان کے مہر دو قید میں لاتے ہوئے (ف۲۵) نہ مستی نکالتے اور نہ ناآشنا بناتے (ف۲٦) اور جو مسلمان سے کافر ہو اس کا کیا دھرا سب اکارت گیا اور وہ آخرت میں زیاں کار ہے (ف۲۷)",
+      "roman_urdu": "Aaj tumhare liye paak cheezein halal ho gayi, aur kitaabiyon ka khana tumhare liye halal hua, aur tumhara khana unke liye halal hai, aur parsa auratein Musalman aur parsa auratein un mein se jin ko tum se pehle kitaab mili, jab tum unhein unke mehr do qaid mein laate hue na masti nikaalte aur na na-aashna banate, aur jo Musalman se kafir ho, uska kya dhara, sab akart gaya aur woh aakhirat mein ziyan kaar hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:6",
+      "surah": 5,
+      "ayah": 6,
+      "urdu": "اے ایمان والو جب نماز کو کھڑے ہونا چاہو (ف۲۸) تو اپنا منہ دھوؤ اور کہنیوں تک ہاتھ (ف۲۹) اور سروں کا مسح کرو (ف۳۰) اور گٹوں تک پاؤں دھوؤ (ف۳۱) اور اگر تمہیں نہانے کی حاجت ہو تو خوب ستھرے ہولو (ف۳۲) اور اگر تم بیمار ہو یا سفر میں ہو یا تم میں سے کوئی قضائے حاجت سے آیا یا تم نے عورتوں سے صحبت کی اور ان صورتوں میں پانی نہ پایا مٹی سے تیمم کرو تو اپنے منہ اور ہاتھوں کا اس سے مسح کرو، اللہ نہیں چاہتا کہ تم پر کچھ تنگی رکھے ہاں یہ چاہتا ہے کہ تمہیں خوب ستھرا کردے اور اپنی نعمت تم پر پوری کردے کہ کہیں تم احسان مانو،",
+      "roman_urdu": "Ae imaan walon! jab namaaz ko khade hona chaho to apna munh dhoo aur kohniyon tak haath aur sar ka mash karo aur ghaton tak paon dhoo, aur agar tumhein nahaane ki haajat ho to khoob suthre ho jao, aur agar tum beemar ho ya safar mein ho ya tum mein se koi qazae haajat se aaya ya tumne aurton se sohbat ki aur in soorat mein paani na paaya, matti se tayammum karo to apne munh aur haathon ka us se mash karo, Allah nahi chahta ke tum par kuch tangi rakhe, haan yeh chahta hai ke tumhein khoob suthra kar de aur apni naimat tum par poori kar de ke kahin tum ehsaan manao,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:7",
+      "surah": 5,
+      "ayah": 7,
+      "urdu": "اور یاد کرو اللہ کا احسان اپنے اوپر (ف۳۳) اور وہ عہد جو اس نے تم سے لیا (ف۳٤) جبکہ تم نے کہا ہم نے سنا اور مانا اور اللہ سے ڈرو بیشک اللہ دلوں کی بات جانتا ہے،",
+      "roman_urdu": "Aur yaad karo Allah ka ehsaan apne upar aur woh ahd jo usne tum se liya jabke tumne kaha humne suna aur maana aur Allah se daro, beshak Allah dilon ki baat jaanta hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:8",
+      "surah": 5,
+      "ayah": 8,
+      "urdu": "اے ایمان والوں اللہ کے حکم پر خوب قائم ہوجاؤ انصاف کے ساتھ گواہی دیتے (ف۳٦) اور تم کو کسی قوم کی عداوت اس پر نہ اُبھارے کہ انصاف نہ کرو، انصاف کرو، وہ پرہیزگاری سے زیادہ قریب ہے، اور اللہ سے ڈرو، بیشک اللہ کو تمہارے کاموں کی خبر ہے،",
+      "roman_urdu": "Ae imaan walon! Allah ke hukum par khoob qaim ho jao insaaf ke saath gawahi dete aur tum ko kisi qaum ki adawat is par na ubhaare ke insaaf na karo, insaaf karo, woh parhezgaari se zyada qareeb hai, aur Allah se daro, beshak Allah ko tumhare kaamon ki khabar hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:9",
+      "surah": 5,
+      "ayah": 9,
+      "urdu": "ایمان والے نیکو کاروں سے اللہ کا وعدہ ہے کہ ان کے لئے بخشش اور بڑا ثواب ہے،",
+      "roman_urdu": "Imaan walon! nek o kaaroun se Allah ka wada hai ke unke liye bakhshish aur bada sawab hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:10",
+      "surah": 5,
+      "ayah": 10,
+      "urdu": "اور وہ جنہوں نے کفر کیا اور ہماری آیتیں جھٹلائیں وحی دوزخ والے ہیں (ف۳۷)",
+      "roman_urdu": "Aur woh jinhon ne kufr kiya aur humari aayatein jhuthlayin wahi dozakh walay hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:11",
+      "surah": 5,
+      "ayah": 11,
+      "urdu": "اے ایمان والو! اللہ کا احسان اپنے اوپر یاد کرو جب ایک قوم نے چاہا کہ تم پر دست درازی کریں تو اس نے ان کے ہاتھ تم پر سے روک دیئے (ف۳۸) اور اللہ سے ڈرو اور مسلمانوں کو اللہ ہی پر بھروسہ چاہئے،",
+      "roman_urdu": "Ae imaan walon! Allah ka ehsaan apne upar yaad karo, jab ek qaum ne chaaha ke tum par dast darazi karein to usne unke haath tum par se rok diye aur Allah se daro aur Musalmano’n ko Allah hi par bharosa chahiye,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:12",
+      "surah": 5,
+      "ayah": 12,
+      "urdu": "اور بیشک اللہ نے بنی اسرائیل سے عہد کیا (ف۳۹) اور ہم نے ان میں بارہ سردار قائم کیے (ف٤۰) اور اللہ نے فرمایا بیشک میں (ف٤۱) تمہارے ساتھ ہوں ضرور اگر تم نماز قائم رکھو اور زکوٰة دو اور میرے سوالوں پر ایمان لاؤ اور ان کی تعظیم کرو اور اللہ کو قرض حسن دو (ف٤۲) بیشک میں تمہارے گناہ اتار دوں گا اور ضرور تمہیں باغوں میں لے جاؤں گا جن کے نیچے نہریں رواں، پھر اس کے بعد جو تم میں سے کفر کرے وہ ضرور سیدھی راہ سے بہکا (ف٤۳)",
+      "roman_urdu": "Aur beshak Allah ne Bani Israeel se ahd kiya aur humne un mein baarah sardaar qaim kiye aur Allah ne farmaya beshak main tumhare saath hoon, zaroor agar tum namaaz qaim rakho aur zakat do aur mere sawalon par imaan lao aur unki tazeem karo aur Allah ko qarz-e-hasan do, beshak main tumhare gunah utaar doonga aur zaroor tumhein baaghon mein le jaaunga jin ke neeche nahrein rawaan, phir us ke baad jo tum mein se kufr kare woh zaroor seedhi raah se behka,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:13",
+      "surah": 5,
+      "ayah": 13,
+      "urdu": "تو ان کی کیسی بد عہدیوں (ف٤٤) پر ہم نے انہیں لعنت کی اور ان کے دل سخت کردیئے اللہ کی باتوں کو (ف٤۵) ان کے ٹھکانوں سے بدلتے ہیں اور بھلا بیٹھے بڑا حصہ ان نصیحتوں کا جو انہیں دی گئیں (ف٤٦) اور تم ہمیشہ ان کی ایک نہ ایک دغا پر مطلع ہوتے رہو گے (ف٤۷) سوا تھوڑوں کے (ف٤۸) تو انہیں معاف کردو اور ان سے درگزرو (ف٤۹) بیشک احسان والے اللہ کو محبوب ہیں،",
+      "roman_urdu": "To unki kaisi bad ahdiyon par humne un par laanat ki aur unke dil sakht kar diye, Allah ki baaton ko unke thikano se badalte hain aur bhula baithe bade hissa un naseehaton ka jo unhein di gayin, aur tum hamesha un ki ek na ek dagha par muttaliq hote raho ge, siwa thodhon ke, to unhein maaf kar do aur un se dar guzro, beshak ehsaan walay Allah ko mehboob hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:14",
+      "surah": 5,
+      "ayah": 14,
+      "urdu": "اور وہ جنہوں نے دعویٰ کیا کہ ہم نصاریٰ ہیں ہم نے ان سے عہد لیا (ف۵۰) تو وہ بھلا بیٹھے بڑا حصہ ان نصیحتوں کا جو انہیں دی گئیں (ف۵۱) تو ہم نے ان کے آپس میں قیامت کے دن تک بَیر اور بغض ڈال دیا (ف۵۲) اور عنقریب اللہ انہیں بتادے گا جو کچھ کرتے تھے (ف۵۳)",
+      "roman_urdu": "Aur woh jinhon ne daawa kiya ke hum Nasara hain, humne un se ahd liya to woh bhula baithe bada hissa un naseehaton ka jo unhein di gayin, to humne unke aapas mein qayamat ke din tak bair aur baghz daal diya aur anqareeb Allah unhein bata dega jo kuch karte the,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:15",
+      "surah": 5,
+      "ayah": 15,
+      "urdu": "اے کتاب والو (ف۵٤) بیشک تمہارے پاس ہمارے یہ رسول (ف۵۵) تشریف لائے کہ تم پر ظاہر فرماتے ہیں بہت سی وہ چیزیں جو تم نے کتاب میں چھپا ڈالی تھیں (ف۵٦) اور بہت سی معاف فرماتے ہیں (ف۵۷) بیشک تمہارے پاس اللہ کی طرف سے ایک نور آیا (ف۵۸) اور روشن کتاب (ف۵۹)",
+      "roman_urdu": "Ae Kitaab walo! beshak tumhare paas humare yeh Rasool tashreef laaye ke tum par zaahir farmaatein bohot si woh cheezein jo tumne kitaab mein chhupa daali thin aur bohot si maaf farmaatein, beshak tumhare paas Allah ki taraf se ek noor aaya aur roshan kitaab,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:16",
+      "surah": 5,
+      "ayah": 16,
+      "urdu": "اللہ اس سے ہدایت دیتا ہے اسے جو اللہ کی مرضی پر چلا سلامتی کے ساتھ اور انہیں اندھیریوں سے روشنی کی طرف لے جاتا ہے اپنے حکم سے اور انہیں سیدھی راہ دکھاتا ہے،",
+      "roman_urdu": "Allah us se hidaayat deta hai usay jo Allah ki marzi par chala, salaamati ke saath aur unhein andheriyon se roshni ki taraf le jaata hai apne hukum se aur unhein seedhi raah dikhata hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:17",
+      "surah": 5,
+      "ayah": 17,
+      "urdu": "بیشک کافر ہوئے وہ جنہوں نے کہا کہ اللہ مسیح بن مریم ہی ہے (ف٦۰) تم فرما دو پھر اللہ کا کوئی کیا کرسکتا ہے اگر وہ چاہے کہ ہلاک کردے مسیح بن مریم اور اس کی ماں اور تمام زمین والوں کو (ف٦۱) اور اللہ ہی کے لیے ہے سلطنت آسمانوں اور زمین اور ان کے درمیان کی جو چاہے پیدا کرتا ہے، اور اللہ سب کچھ کرسکتا ہے،",
+      "roman_urdu": "Beshak kafir hue woh jinhon ne kaha ke Allah Masiih bin Maryam hi hai, tum farma do phir Allah ka koi kya kar sakta hai agar woh chahe ke halaak kar de Masiih bin Maryam aur us ki maa aur tamam zameen walon ko, aur Allah hi ke liye hai saltanat aasmanon aur zameen aur un ke darmiyan ki, jo chahe paida karta hai, aur Allah sab kuch kar sakta hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:18",
+      "surah": 5,
+      "ayah": 18,
+      "urdu": "اور یہودی اور نصرانی بولے کہ ہم اللہ کے بیٹے اور اس کے پیارے ہیں (ف٦۲) تم فرما دو پھر تمہیں کیوں تمہارے گناہوں پر عذاب فرماتا ہے (ف٦۳) بلکہ تم آدمی ہو اس کی مخلوقات سے جسے چاہے بخشتا ہے اور جسے چاہے سزا دیتا ہے، اور اللہ ہی کے لئے ہے سلطنت آسمانوں اور زمین اور اس کے درمیان کی، اور اسی کی طرف پھرنا ہے،",
+      "roman_urdu": "Aur Yahudi aur Nasrani bole ke hum Allah ke bete aur uske pyaare hain, tum farma do phir tumhein kyun tumhare gunahon par azaab farmaata hai, balki tum aadmi ho uski makhluqat se, jise chahe bakhshata hai aur jise chahe saza deta hai, aur Allah hi ke liye hai saltanat aasmanon aur zameen aur uske darmiyan ki, aur usi ki taraf phirna hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:19",
+      "surah": 5,
+      "ayah": 19,
+      "urdu": "اے کتاب والو! بیشک تمہارے پاس ہمارے یہ رسول (ف٦٤) تشریف لائے کہ تم پر ہمارے احکام ظاہر فرماتے ہیں بعد اس کے کہ رسولوں کا آنا مدتوں بند رہا تھا (ف٦۵) کہ کبھی کہو کہ ہمارے پاس کوئی خوشی اور ڈر سنانے والا نہ آیا تو یہ خوشی اور ڈر سنانے والے تمہارے پاس تشریف لائے ہیں، اور اللہ کو سب قدرت ہے،",
+      "roman_urdu": "Ae Kitaab walo! beshak tumhare paas humare yeh Rasool tashreef laaye ke tum par humare ahkaam zaahir farmaatein, baad is ke ke Rasoolon ka aana muddaton band raha tha, ke kabhi kaho ke humare paas koi khushi aur darr sunane wala na aaya, to yeh khushi aur darr sunane wale tumhare paas tashreef laaye hain, aur Allah ko sab qudrat hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:20",
+      "surah": 5,
+      "ayah": 20,
+      "urdu": "اور جب موسیٰ نے کہا اپنی قوم سے اے میری قوم اللہ کا احسان اپنے اوپر یاد کرو کہ تم میں سے پیغمبر کیے اور تمہیں بادشاہ کیا (ف٦۷) اور تمہیں وہ دیا جو آج سارے جہان میں کسی کو نہ دیا (ف٦۸)",
+      "roman_urdu": "Aur jab Musa ne kaha apni qaum se, Ae meri qaum! Allah ka ehsaan apne upar yaad karo, ke tum mein se paighambar kiye aur tumhein badshah kiya aur tumhein woh diya jo aaj saare jahan mein kisi ko na diya,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:21",
+      "surah": 5,
+      "ayah": 21,
+      "urdu": "اے قوم اس پاک زمین میں داخل ہو جو اللہ نے تمہارے لیے لکھی ہے اور پیچھے نہ پلٹو (ف٦۹) کہ نقصان پر پلٹو گے،",
+      "roman_urdu": "Ae qaum! is paak zameen mein daakhil ho jo Allah ne tumhare liye likhi hai aur peeche na palto ke nuqsan par palto ge,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:22",
+      "surah": 5,
+      "ayah": 22,
+      "urdu": "بولے اے موسیٰ اس میں تو بڑے زبردست لوگ ہیں، اور ہم اس میں ہرگز داخل نہ ہوں گے جب تک وہ وہاں سے نکل نہ جائیں ہاں وہ وہاں سے نکل جائیں تو ہم وہاں جائیں،",
+      "roman_urdu": "Bole Ae Musa! is mein to bade zabardast log hain, aur hum is mein hargez daakhil na honge jab tak woh wahan se nikal na jaayein, haan woh wahan se nikal jaayein to hum wahan jaayein,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:23",
+      "surah": 5,
+      "ayah": 23,
+      "urdu": "دو مرد کہ اللہ سے ڈرنے والوں میں سے تھے (ف۷۰) اللہ نے انہیں نوازا (ف۷۱) بولے کہ زبردستی دروازے میں (ف۷۲) ان پر داخل ہو اگر تم دروازے میں داخل ہوگئے تو تمہارا ہی غلبہ ہے (ف۷۳) اور اللہ ہی پر بھروسہ کرو اگر تمہیں ایمان ہے،",
+      "roman_urdu": "Do mard ke Allah se darne walon mein se the, Allah ne unhein nawaza, bole ke zabardasti darwaze mein un par daakhil ho, agar tum darwaze mein daakhil ho gaye to tumhara hi ghalba hai aur Allah hi par bharosa karo agar tumhein imaan hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:24",
+      "surah": 5,
+      "ayah": 24,
+      "urdu": "بولے (ف۷٤) اے موسیٰ ہم تو وہاں (ف۷۵) کبھی نہ جائیں گے جب تک وہ وہاں ہیں تو آپ جائیے اور آپ کا رب تم دونوں لڑو ہم یہاں بیٹھے ہیں،",
+      "roman_urdu": "Bole Ae Musa! hum to wahan kabhi na jaayenge jab tak woh wahan hain, to aap jaaiye aur aapka Rab tum dono ko ladho, hum yahan baithe hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:25",
+      "surah": 5,
+      "ayah": 25,
+      "urdu": "موسیٰ نے عرض کی کہ اے رب! میرے مجھے اختیار نہیں مگر اپنا اور اپنے بھائی کا تو تو ہم کو ان بےحکموں سے جدا رکھ (ف۷٦)",
+      "roman_urdu": "Musa ne arz kiya ke Ae Rab! mere mujhe ikhtiyaar nahi magar apna aur apne bhai ka, to tu humein in be-hukmon se juda rakh",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:26",
+      "surah": 5,
+      "ayah": 26,
+      "urdu": "فرمایا تو وہ زمین ان پر حرام ہے (ف۷۷) چالیس برس تک بھٹکتے پھریں زمین میں (ف۷۸) تو تم ان بےحکموں کا افسوس نہ کھاؤ،",
+      "roman_urdu": "Farmaya to woh zameen un par haram hai chaalees baras tak bhatakte phrein zameen mein, to tum un be-hukmon ka afsos na khao,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:27",
+      "surah": 5,
+      "ayah": 27,
+      "urdu": "اور انہیں پڑھ کر سناؤ آدم کے دو بیٹوں کی سچی خبر (ف۷۹) جب دونوں نے ایک ایک نیاز پیش کی تو ایک کی قبول ہوئی اور دوسرے کی نہ قبول ہوئی بولا قسم ہے میں تجھے قتل کردوں گا (ف۸۰) کہا اللہ اسی سے قبول کرتا ہے، جسے ڈر ہے (ف۸۱)",
+      "roman_urdu": "Aur unhein padh kar sunao Aadmi ke do betoon ki sacchi khabar, jab dono ne ek ek niyaaz pesh ki to ek ki qubool hui aur doosre ki na qubool hui, bola qasam hai main tujhe qatal kar doon ga, kaha Allah, isi se qubool karta hai, jise dar hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:28",
+      "surah": 5,
+      "ayah": 28,
+      "urdu": "بیشک اگر تو اپنا ہاتھ مجھ پر بڑھائے گا کہ مجھے قتل کرے تو میں اپنا ہاتھ تجھ پر نہ بڑھاؤں گا کہ تجھے قتل کروں (ف۸۲) میں اللہ سے ڈرتا ہوں جو مالک ہے سارے جہاں کا،",
+      "roman_urdu": "Beshak agar tu apna haath mujh par barhaega ke mujhe qatal kare, to main apna haath tujh par na barhaoonga ke tujhe qatal karoon, main Allah se darta hoon jo maalik hai saare jahan ka,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:29",
+      "surah": 5,
+      "ayah": 29,
+      "urdu": "میں تو یہ چاہتا ہوں کہ میرا (ف۷۳) اور تیرا گناہ (ف۸٤) دونوں تیرے ہی پلہ پڑے تو تو دوز خی ہوجائے، اور بے انصافوں کی یہی سزا ہے،",
+      "roman_urdu": "Main to yeh chahta hoon ke mera aur tera gunah dono tere hi pala pade, to tu doozakhi ho jaaye, aur be-insaafon ki yehi saza hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:30",
+      "surah": 5,
+      "ayah": 30,
+      "urdu": "تو اسکے نفس نے اسے بھائی کے قتل کا چاؤ دلایا تو اسے قتل کردیا تو رہ گیا نقصان میں (ف۸۵)",
+      "roman_urdu": "To us ke nafs ne usey bhai ke qatal ka chaav dilaya, to usne qatal kar diya, to reh gaya nuqsaan mein,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:31",
+      "surah": 5,
+      "ayah": 31,
+      "urdu": "تو اللہ نے ایک کوا بھیجا زمین کریدتا کہ اسے دکھائے کیونکر اپنے بھائی کی لاش چھپائے (ف۸٦) بولا ہائے خرابی میں اس کوے جیسا بھی نہ ہوسکا کہ میں اپنے بھائی کی لاش چھپاتا تو پچتاتا رہ گیا (ف۸۷)",
+      "roman_urdu": "To Allah ne ek kaua bheja zameen kreedta ke use dikhaye ke kaise apne bhai ki laash chhupaye, bola haaye kharabi mein us kauye jaisa bhi na ho saka ke main apne bhai ki laash chhupata, to pachtata raha,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:32",
+      "surah": 5,
+      "ayah": 32,
+      "urdu": "اس سبب سے ہم نے بنی اسرائیل پر لکھ دیا کہ جس نے کوئی جان قتل کی بغیر جان کے بدلے یا زمین میں فساد کیے (ف۸۸) تو گویا اس نے سب لوگوں کو قتل کیا (ف۸۹) اور جس نے ایک جان کو جِلا لیا (ف۹۰) اس نے گویا سب لوگوں کو جلالیا، اور بیشک ان کے (ف۹۱) پاس ہمارے رسول روشن دلیلوں کے ساتھ آئے (ف۹۲) پھر بیشک ان میں بہت اس کے بعد زمین میں زیادتی کرنے والے ہیں (ف۹۳)",
+      "roman_urdu": "Is sabab se humne Bani Israeel par likh diya ke jisne koi jaan qatal ki bina jaan ke badle ya zameen mein fasaad kiye, to goya usne sab logon ko qatal kiya, aur jisne ek jaan ko jala diya, usne goya sab logon ko jala diya, aur beshak un ke paas humare Rasool roshan daleelon ke saath aaye, phir beshak un mein bohot is ke baad zameen mein ziadti karne wale hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:33",
+      "surah": 5,
+      "ayah": 33,
+      "urdu": "وہ کہ اللہ اور اس کے رسول سے لڑتے (ف۹٤) اور ملک میں فساد کرتے پھرتے ہیں ان کا بدلہ یہی ہے کہ گن گن کر قتل کیے جائیں یا سولی دیے جائیں یا ان کے ایک طرف کے ہاتھ اور دوسری طرف کے پاؤں کاٹے جائیں یا زمین سے دور کردیے جائیں، یہ دنیا میں ان کی رسوائی ہے، اور آخرت میں ان کے لیے بڑا غداب،",
+      "roman_urdu": "Woh ke Allah aur us ke Rasool se larte aur mulk mein fasaad karte phirte hain, un ka badla yehi hai ke gan gan kar qatal kiye jaayein ya sooli diye jaayein ya un ke ek taraf ke haath aur doosri taraf ke paon kaate jaayein ya zameen se door kar di jaayein, ye duniya mein un ki ruswai hai, aur aakhirat mein un ke liye bada azaab,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:34",
+      "surah": 5,
+      "ayah": 34,
+      "urdu": "مگر وہ جنہوں نے توبہ کر لی اس سے پہلے کہ تم ان پر قابو پاؤ (ف۹۵) تو جان لو کہ اللہ بخشنے والا مہربان ہے،",
+      "roman_urdu": "Magar woh jinhon ne tauba kar li is se pehle ke tum un par qaabu pao, to jaan lo ke Allah bakhshne wala meherban hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:35",
+      "surah": 5,
+      "ayah": 35,
+      "urdu": "اے ایمان والو! اللہ سے ڈرو اور اس کی طرف وسیلہ ڈھونڈو (ف٦٦) اور اس کی راہ میں جہاد کرو اس امید پر کہ فلاح پاؤ،",
+      "roman_urdu": "Ae imaan walon! Allah se daro aur us ki taraf waseela dhoondo aur us ki raah mein jihad karo is umeed par ke falaah pao,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:36",
+      "surah": 5,
+      "ayah": 36,
+      "urdu": "بیشک وہ جو کافر ہوئے جو کچھ زمین میں ہے سب اور اس کی برابر اور اگر ان کی ملک ہو کہ اسے دے کر قیامت کے عذاب سے اپنی جان چھڑائیں تو ان سے نہ لیا جائے گا اور ان کے لئے دکھ کا عذاب ہے (ف۹۷)",
+      "roman_urdu": "Beshak woh jo kafir hue, jo kuch zameen mein hai sab aur us ki barabar, aur agar un ki milk ho ke use de kar qayamat ke azaab se apni jaan chhudaayein, to un se na liya jaayega, aur un ke liye dukh ka azaab hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:37",
+      "surah": 5,
+      "ayah": 37,
+      "urdu": "دوزخ سے نکلنا چاہیں گے اور وہ اس سے نہ نکلیں گے اور ان کو دوامی سزا ہے،",
+      "roman_urdu": "Doozakh se nikalna chahein ge aur woh is se na niklein ge aur un ko dawaami saza hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:38",
+      "surah": 5,
+      "ayah": 38,
+      "urdu": "اور جو مرد یا عورت چور ہو (ف۹۸) تو ان کا ہاتھ کاٹو (ف۹۹) ان کے کیے کا بدلہ اللہ کی طرف سے سزا، اور اللہ غالب حکمت والا ہے،",
+      "roman_urdu": "Aur jo mard ya aurat chor ho, to un ka haath kaato un ke kiye ka badla Allah ki taraf se saza, aur Allah ghaalib hikmat wala hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:39",
+      "surah": 5,
+      "ayah": 39,
+      "urdu": "تو جو اپنے ظلم کے بعد توبہ کرے اور سنور جائے تو اللہ اپنی مہر سے اس پر رجوع فرمائے گا (ف۱۰۰) بیشک اللہ بخشنے والا مہربان ہے،",
+      "roman_urdu": "To jo apne zulm ke baad tauba kare aur sanwar jaaye, to Allah apni mehr se us par rujoo farmaaye ga, beshak Allah bakhshne wala meherban hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:40",
+      "surah": 5,
+      "ayah": 40,
+      "urdu": "کیا تجھے معلوم نہیں کہ اللہ کے لئے ہے آسمانوں اور زمین کی بادشاہی، سزا دیتا ہے جسے چاہے اور بخشتا ہے جسے چاہے، اور اللہ سب کچھ کرسکتا ہے، (ف۱۰۱)",
+      "roman_urdu": "Kya tujhe maloom nahi ke Allah ke liye hai aasmanon aur zameen ki badshahi, saza deta hai jise chahe aur bakhshata hai jise chahe, aur Allah sab kuch kar sakta hai,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:41",
+      "surah": 5,
+      "ayah": 41,
+      "urdu": "اے رسول! تمہیں غمگین نہ کریں وہ جو کفر پڑ دوڑتے ہیں (ف۱۰۲) جو کچھ وہ اپنے منہ سے کہتے ہیں ہم ایمان لائے اور ان کے دل مسلمان نہیں (ف۱۰۳) اور کچھ یہودی جھوٹ خوب سنتے ہیں (ف۱۰٤) اور لوگوں کی خوب سنتے ہیں (ف۱۰۵) جو تمہارے پاس حاضر نہ ہوئے اللہ کی باتوں کو ان کے ٹھکانوں کے بعد بدل دیتے ہیں، کہتے ہیں یہ حکم تمہیں ملے تو مانو اور یہ نہ ملے تو بچو (ف۱۰٦) اور جسے اللہ گمراہ کرنا چاہے تو ہرگز تو اللہ سے اس کا کچھ بنا نہ سکے گا، وہ ہیں کہ اللہ نے ان کا دل پاک کرنا نہ چاہا، انہیں دنیا میں رسوائی ہے، اور انہیں آخرت میں بڑا عذاب،",
+      "roman_urdu": "Ae Rasool! Tumhein ghamgeen na karein woh jo kufr par doḍte hain, jo kuch woh apne munh se kehte hain, hum imaan laaye, aur un ke dil Musalman nahi, aur kuch Yahudi jhoot khoob sunte hain aur logon ki khoob sunte hain jo tumhare paas haazir na hue, Allah ki baaton ko unke thikano ke baad badal dete hain, kehte hain ye hukum tumhein mile to maano aur ye na mile to bacho, aur jise Allah gumraah karna chahe to hargez tu Allah se is ka kuch bana na sakega, woh hain ke Allah ne un ka dil paak karna na chaaha, unhein duniya mein ruswai hai, aur unhein aakhirat mein bada azaab,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:42",
+      "surah": 5,
+      "ayah": 42,
+      "urdu": "بڑے جھوٹ سننے والے بڑے حرام خور (ف۱۰۷) تو اگر تمہارے حضور حاضر ہوں (ف۱۰۸) تو ان میں فیصلہ فرماؤ یا ان سے منہ پھیرلو (ف۱۰۹) اور اگر تم ان سے منہ پھیرلو گے تو وہ تمہارا کچھ نہ بگاڑیں گے (ف۱۱۰) اور اگر ان میں فیصلہ فرماؤ تو انصاف سے فیصلہ کرو، بیشک انصاف والے اللہ کو پسند ہیں،",
+      "roman_urdu": "Bade jhoot sunne wale, bade haraam khor, to agar tumhare huzoor haazir hon to un mein faisla farmaao ya un se munh pher lo, aur agar tum un se munh pher lo ge to woh tumhara kuch na bigaarden ge, aur agar un mein faisla farmaao to insaaf se faisla karo, beshak insaaf walay Allah ko pasand hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:43",
+      "surah": 5,
+      "ayah": 43,
+      "urdu": "اور وہ تم سے کیونکر فیصلہ چاہیں گے، حالانکہ ان کے پاس توریت ہے جس میں اللہ کا حکم موجود ہے (ف۱۱۱) بایں ہمہ اسی سے منہ پھیرتے ہیں (ف۱۱۲) اور وہ ایمان لانے والے نہیں،",
+      "roman_urdu": "Aur woh tum se kyun faisla chahenge, halaanke un ke paas Taurat hai jismein Allah ka hukum maujood hai, bainan hum usi se munh pherte hain, aur woh imaan lane wale nahi,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:44",
+      "surah": 5,
+      "ayah": 44,
+      "urdu": "بیشک ہم نے توریت اتاری اس میں ہدایت اور نور ہے، اس کے مطابق یہود کو حکم دیتے تھے ہمارے فرمانبردار نبی اور عالم اور فقیہہ کہ ان سے کتاب اللہ کی حفاظت چاہی گئی تھی (ف۱۱۳) اور وہ اس پر گواہ تھے تو (ف۱۱٤) لوگوں سے خوف نہ کرو اور مجھ سے ڈرو اور میری آیتوں کے بدلے ذلیل قیمت نہ لو (ف۱۱۵) اور جو اللہ کے اتارے پر حکم نہ کرے (ف۱۱٦) وہی لوگ کافر ہیں،",
+      "roman_urdu": "Beshak humne Taurat utaari, is mein hidaayat aur noor hai, is ke mutabiq Yahood ko hukum dete the, humare farmanbardaar Nabi aur aalim aur faqeeh, ke un se kitaab Allah ki hifazat chahi gayi thi aur woh is par gawah the, to logon se khauf na karo aur mujh se daro, aur meri aayaton ke badle zaleel qeemat na lo, aur jo Allah ke utare par hukum na kare wohi log kafir hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:45",
+      "surah": 5,
+      "ayah": 45,
+      "urdu": "اور ہم نے توریت میں ان پر واجب کیا (ف۱۱۷) کہ جان کے بدلے جان (ف۱۱۸) اور آنکھ کے بدلے آنکھ اور ناک کے بدلے ناک اور کان کے بدلے کان اور دانت کے بدلے دانت اور زخموں میں بدلہ ہے (ف۱۱۹) پھر جو دل کی خوشی سے بدلہ کراوے تو وہ اس کا گناہ اتار دے گا (ف۱۲۰) اور جو اللہ کے اتارے پر حکم نہ کرے تو وہی لوگ ظالم ہیں،",
+      "roman_urdu": "Aur humne Taurat mein un par wajib kiya ke jaan ke badle jaan, aankh ke badle aankh, naak ke badle naak, kaan ke badle kaan, daant ke badle daant, aur zakhmon mein badla hai, phir jo dil ki khushi se badla karwaye to woh us ka gunah utaar dega, aur jo Allah ke utare par hukum na kare to wohi log zalim hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:46",
+      "surah": 5,
+      "ayah": 46,
+      "urdu": "اور ہم ان نبیوں کے پیچھے ان کے نشان قدم پر عیسیٰ بن مریم کو لائے تصدیق کرتا ہوا توریت کی جو اس سے پہلے تھی (ف۱۲۱) اور ہم نے اسے انجیل عطا کی جس میں ہدایت اور نور ہے اور تصدیق فرماتی ہے توریت کی کہ اس سے پہلی تھی اور ہدایت (ف۱۲۲) اور نصیحت پرہیزگاروں کو،",
+      "roman_urdu": "Aur hum un Nabioun ke peeche un ke nishaan-e-qadam par Eesa bin Maryam ko laaye tasdeeq karta hua Taurat ki jo is se pehle thi, aur humne use Injil ata ki, jismein hidaayat aur noor hai aur tasdeeq farmaati hai Taurat ki ke is se pehle thi, aur hidaayat aur naseehat parhezgaron ko,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:47",
+      "surah": 5,
+      "ayah": 47,
+      "urdu": "اور چاہئے کہ انجیل والے حکم کریں اس پر جو اللہ نے اس میں اتارا (ف۱۲۳) اور جو اللہ کے اتارے پر حکم نہ کریں تو وہی لوگ فاسق ہیں،",
+      "roman_urdu": "Aur chahiye ke Injil wale hukum karein is par jo Allah ne is mein utara, aur jo Allah ke utare par hukum na karein to wohi log faasiq hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:48",
+      "surah": 5,
+      "ayah": 48,
+      "urdu": "اور اے محبوب ہم نے تمہاری طرف سچی کتاب اتاری اگلی کتابوں کی تصدیق فرماتی (ف۱۲٤) اور ان پر محافظ و گواہ تو ان میں فیصلہ کرو اللہ کے اتارے سے (ف۱۲۵) اور اسے سننے والے ان کی خواہشوں کی پیروی نہ کرنا اپنے پاس آیا ہوا حق چھوڑ کر، ہم نے تم سب کے لیے ایک ایک شریعت اور راستہ رکھا (ف۱۲٦) اور اللہ چاہتا تو تم سب کو ایک ہی امت کردیتا مگر منظور یہ ہے کہ جو کچھ تمہیں دیا اس میں تمہیں آزمائے (ف۱۲۷) تو بھلائیوں کی طرف سبقت چاہو، تم سب کا پھرنا اللہ ہی کی طرف ہے تو وہ تمہیں بتادے گا جس بات میں تم جھگڑتے تھے",
+      "roman_urdu": "Aur ae Mehboob! humne tumhari taraf sacchi kitaab utari, agli kitaabon ki tasdeeq farmaati aur un par muhafiz o gawah, to un mein faisla karo Allah ke utare se, aur ise sunne walay un ki khwahishon ki pairavi na karen, apne paas aaya hua haq chhod kar, humne tum sab ke liye ek ek shari’at aur raasta rakha, aur Allah chahta to tum sab ko ek hi ummat kar deta, magar manzoor yeh hai ke jo kuch tumhein diya, us mein tumhein aazmaaye, to bhalaaiyon ki taraf sabqat chaho, tum sab ka phirna Allah hi ki taraf hai, to woh tumhein bata dega jis baat mein tum jhagadte the,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:49",
+      "surah": 5,
+      "ayah": 49,
+      "urdu": "اور یہ کہ اے مسلمان! اللہ کے اتارے پر حکم کر اور ان کی خواہشوں پر نہ چل اور ان سے بچتا رہ کہ کہیں تجھے لغزش نہ دے دیں کسی حکم میں جو تیری طرف اترا پھر اگر وہ منہ پھیریں (ف۱۲۸) تو جان لو کہ اللہ ان کے بعض گناہوں کی (ف۱۲۹) سزا ان کو پہنچایا چاہتا ہے (ف۱۳۰) اور بیشک بہت آدمی بےحکم ہیں،",
+      "roman_urdu": "Aur ye ke ae Musalman! Allah ke utare par hukum karo aur un ki khwahishon par na chalo, aur un se bachta raho ke kahin tumhein laghzish na de, kisi hukum mein jo teri taraf utara, phir agar woh munh pherain to jaan lo ke Allah un ke baaz gunahon ki saza un ko pahunchana chahta hai, aur beshak bohot aadmi be-hukm hain,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:50",
+      "surah": 5,
+      "ayah": 50,
+      "urdu": "تو کیا جاہلیت کا حکم چاہتے ہیں (ف۱۳۱) اور اللہ سے بہتر کس کا حکم یقین والوں کے لیے،",
+      "roman_urdu": "To kya jahiliyat ka hukum chahte ho, aur Allah se behtar kis ka hukum yaqeen walon ke liye,",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:51",
+      "surah": 5,
+      "ayah": 51,
+      "urdu": "اے ایمان والو! یہود و نصاریٰ کو دوست نہ بناؤ (ف۱۳۲) وہ آپس میں ایک دوسرے کے دوست ہیں (ف۱۳۳) اور تم میں جو کوئی ان سے دوستی رکھے گا تو وہ انہیں میں سے ہے (ف۱۳٤) بیشک اللہ بے انصافوں کو راہ نہیں دیتا (ف۱۳۵)",
+      "roman_urdu": "Ae imaan walon! Yahood o Nasara ko dost na banao, woh aapas mein ek doosre ke dost hain, aur tum mein jo koi un se dosti rakhega to woh un mein se hai, beshak Allah be-insaafon ko raah nahi deta.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:52",
+      "surah": 5,
+      "ayah": 52,
+      "urdu": "اب تم انہیں دیکھو گے جن کے دلوں میں آزار ہے (ف۱۳٦) کہ یہود و نصاریٰ کی طرف دوڑتے ہیں کہتے ہیں ہم ڈرتے ہیں کہ ہم پر کوئی گردش آجائے (ف۱۳۷) تو نزدیک ہے کہ اللہ فتح لائے (ف۱۳۸) یا اپنی طرف سے کوئی حکم (ف۱۳۹) پھر اس پر جو اپنے دلوں میں چھپایا تھا (ف۱٤۰) پچھتائے رہ جائیں",
+      "roman_urdu": "Ab tum unhein dekho ge jin ke dilon mein aazaar hai ke Yahood o Nasara ki taraf daudte hain, kehte hain hum darte hain ke hum par koi gardish aa jaaye, to nazdeek hai ke Allah fatah laaye ya apni taraf se koi hukum phir, us par jo apne dilon mein chhupaya tha pachtaye rah jaayein.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:53",
+      "surah": 5,
+      "ayah": 53,
+      "urdu": "اور (ف۱٤۱) ایمان والے کہتے ہیں کیا یہی ہیں جنہوں نے اللہ کی قسم کھائی تھی اپنے حلف میں پوری کوشش سے کہ وہ تمہارے ساتھ ہیں ان کا کیا دھرا سب اکارت گیا تو رہ گئے نقصان میں (ف۱٤۲)",
+      "roman_urdu": "Aur imaan wale kehte hain kya yehi hain jin hon ne Allah ki qasam khai thi apne halaf mein poori koshish se ke woh tumhare saath hain, un ka kya dhara sab akaarat gaya, to reh gaye nuqsaan mein.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:54",
+      "surah": 5,
+      "ayah": 54,
+      "urdu": "اے ایمان والو! تم میں جو کوئی اپنے دین سے پھرے گا (ف۱٤۳) تو عنقریب اللہ ایسے لوگ لائے گا کہ وہ اللہ کے پیارے اور اللہ ان کا پیارا مسلمانوں پر نرم اور کافروں پر سخت اللہ کی راہ میں لڑیں گے اور کسی ملامت کرنے والے کی ملامت کا اندیشہ نہ کریں گے (ف۱٤٤) یہ اللہ کا فضل ہے جسے چاہے دے، اور اللہ وسعت والا علم والا ہے،",
+      "roman_urdu": "Ae imaan walon! Tum mein jo koi apne deen se phire ga, to anqareeb Allah aise log laaye ga ke woh Allah ke pyaare aur Allah unka pyaara, Musalmanon par narm aur kafiron par sakht, Allah ki raah mein ladenge aur kisi mulaamat karne wale ki mulaamat ka andesha na karein, ye Allah ka fazl hai, jise chahe de, aur Allah wisaat wala, ilm wala hai.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:55",
+      "surah": 5,
+      "ayah": 55,
+      "urdu": "تمہارے دوست نہیں مگر اللہ اور اس کا رسول اور ایمان والے (ف۱٤۵) کہ نماز قائم کرتے ہیں اور زکوٰة دیتے ہیں اور اللہ کے حضور جھکے ہوئے ہیں (ف۱٤٦)",
+      "roman_urdu": "Tumhare dost nahi magar Allah aur us ka Rasool aur imaan wale, ke namaz qaim karte hain aur zakaat dete hain aur Allah ke huzoor jhuke hue hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:56",
+      "surah": 5,
+      "ayah": 56,
+      "urdu": "اور جو اللہ اور اس کے رسول اور مسلمانوں کو اپنا دوست بنائے تو بیشک اللہ ہی کا گروہ غالب ہے،",
+      "roman_urdu": "Aur jo Allah aur us ke Rasool aur Musalmanon ko apna dost banaye, to beshak Allah hi ka giroh ghaalib hai.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:57",
+      "surah": 5,
+      "ayah": 57,
+      "urdu": "اے ایمان والو! جنہوں نے تمہارے دین کو ہنسی کھیل بنالیا ہے (ف۱٤۷) وہ جو تم سے پہلے کتاب دیے گئے اور کافر (ف۱٤۸) ان میں کسی کو اپنا دوست نہ بناؤ اور اللہ سے ڈرتے رہو اگر ایمان رکھتے ہو (ف۱٤۹)",
+      "roman_urdu": "Ae imaan walon! Jin hon ne tumhare deen ko hansi khel bana liya hai, woh jo tum se pehle kitaab diye gaye aur kafir, un mein kisi ko apna dost na banao aur Allah se darte raho agar imaan rakhte ho.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:58",
+      "surah": 5,
+      "ayah": 58,
+      "urdu": "اور جب تم نماز کے لئے اذان دو تو اسے ہنسی کھیل بناتے ہیں (ف۱۵۰) یہ اس لئے کہ وہ نرے بےعقل لوگ ہیں (ف۱۵۱)",
+      "roman_urdu": "Aur jab tum namaz ke liye azaan do to ise hansi khel banate hain, ye is liye ke woh nare be-aqal log hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:59",
+      "surah": 5,
+      "ayah": 59,
+      "urdu": "تم فرماؤ اے کتابیوں تمہیں ہمارا کیا برا لگا یہی نہ کہ ہم ایمان لائے اللہ پر اور اس پر جو ہماری طرف اترا اور اس پر جو پہلے اترا (ف۱۵۲) اور یہ کہ تم میں اکثر بےحکم ہیں،",
+      "roman_urdu": "Tum farmaao, Ae kitaabiyon! Tumhein hamara kya bura laga? Yehi na ke hum imaan laaye Allah par aur us par jo hamari taraf utra aur us par jo pehle utra, aur ye ke tum mein aksar be-hukm hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:60",
+      "surah": 5,
+      "ayah": 60,
+      "urdu": "تم فرماؤ کیا میں بتادوں جو اللہ کے یہاں اس سے بدتر درجہ میں ہیں (ف۱۵۳) وہ جن پر اللہ نے لعنت کی اور ان پر غضب فرمایا اور ان میں سے کردیے بندر اور سور (ف۱۵٤) اور شیطان کے پجاری ان کا ٹھکانا زیادہ برا ہے (ف۱۵۵) اور یہ سیدھی راہ سے زیادہ بہکے،",
+      "roman_urdu": "Tum farmaao, kya main bata doon jo Allah ke yahan is se badtar darja mein hain, woh jin par Allah ne laanat ki aur un par ghazab farmaya, aur un mein se kar diye bandar aur soor aur shaitaan ke pujaari, un ka thikaana zyada bura hai, aur ye seedhi raah se zyada behke.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:61",
+      "surah": 5,
+      "ayah": 61,
+      "urdu": "اور جب تمہارے پاس آئیں (ف۱۵٦) ہم مسلمان ہیں اور وہ آتے وقت بھی کافر تھے اور جاتے وقت بھی کافر، اور اللہ خوب جانتا ہے جو چھپا رہے ہیں",
+      "roman_urdu": "Aur jab tumhare paas aaye hum Musalman hain, aur woh aate waqt bhi kafir the aur jaate waqt bhi kafir, aur Allah khoob jaanta hai jo chhupa rahe hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:62",
+      "surah": 5,
+      "ayah": 62,
+      "urdu": "اور ان (ف۱۵۷) میں تم بہتوں کو دیکھو گے کہ گناہ اور زیادتی اور حرام خوری پر دوڑتے ہیں (ف۱۵۸) بیشک بہت ہی برے کام کرتے ہیں،",
+      "roman_urdu": "Aur un mein tum bohoton ko dekho ge ke gunah aur ziadti aur haraam khori par daudte hain, beshak bohot hi bure kaam karte hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:63",
+      "surah": 5,
+      "ayah": 63,
+      "urdu": "انہیں کیوں نہیں منع کرتے ان کے پادری اور درویش گناہ کی بات کہنے اور حرام کھانے سے، بیشک بہت ہی برے کام کر رہے ہیں (ف۱۵۹)",
+      "roman_urdu": "Unhein kyun nahi mana karte, un ke padri aur darvesh gunah ki baat kehne aur haraam khane se, beshak bohot hi bure kaam kar rahe hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:64",
+      "surah": 5,
+      "ayah": 64,
+      "urdu": "اور یہودی بولے اللہ کا ہاتھ بندھا ہوا ہے (ف۱٦۰) ان کے ہاتھ باندھے جائیں (ف۱٦۱) اور ان پر اس کہنے سے لعنت ہے بلکہ اس کے ہاتھ کشادہ ہیں (ف۱٦۲) عطا فرماتا ہے جیسے چاہے (ف۱٦۳) اور اے محبوب! یہ (ف۱٦٤) جو تمہاری طرف تمہارے رب کے پاس سے اترا اس سے ان میں بہتوں کو شرارت اور کفر میں ترقی ہوگی (ف۱٦۵) اور ان میں ہم نے قیامت تک آپس میں دشمنی اور بیر ڈال دیا (ف۱٦٦) جب کبھی لڑائی کی آگ بھڑکاتے ہیں اللہ اسے بجھا دیتا ہے (ف۱٦۷) اور زمین میں فساد کے لیے دوڑتے پھرتے ہیں، اور اللہ فسادیوں کو نہیں چاہتا،",
+      "roman_urdu": "Aur Yahoodi bole, Allah ka haath bandha hua hai, un ke haath bandhe jaayein aur un par is kehne se laanat hai, balki is ke haath kashaada hain, ata farmaata hai jaise chahe, aur Ae Mehboob! Ye jo tumhari taraf tumhare Rab ke paas se utra, is se un mein bohoton ko shararat aur kufr mein taraqqi ho gi, aur un mein humne qayamat tak aapas mein dushmani aur bair daal diya, jab kabhi ladai ki aag bhadkate hain Allah ise bujha deta hai aur zameen mein fasaad ke liye daudte phirte hain, aur Allah fusadiyon ko nahi chahta.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:65",
+      "surah": 5,
+      "ayah": 65,
+      "urdu": "اور اگر کتاب والے ایمان لاتے اور پرہیزگاری کرتے تو ضرور ہم ان کے گناہ اتار دیتے اور ضرور انہیں چین کے باغوں میں لے جاتے",
+      "roman_urdu": "Aur agar kitaab wale imaan late aur parhezgari karte to zaroor hum un ke gunah utaar dete aur zaroor unhein chain ke baaghon mein le jaate.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:66",
+      "surah": 5,
+      "ayah": 66,
+      "urdu": "اور اگر وہ قائم رکھتے توریت اور انجیل (ف۱٦۸) اور جو کچھ ان کی طرف ان کے رب کی طرف سے اترا (ف۱٦۹) تو انہیں رزق ملتا اوپر سے اور ان کے پاؤں کے نیچے سے (ف۱۷۰) ان میں کوئی گروہ اگر اعتدال پر ہے (ف۱۷۱) اور ان میں اکثر بہت ہی برے کام کر رہے ہیں (ف۱۷۲)",
+      "roman_urdu": "Aur agar woh qaim rakhte Taurat aur Injil aur jo kuch un ki taraf un ke Rab ki taraf se utra, to unhein rizq milta upar se aur un ke paon ke neeche se, un mein koi giroh agar itidal par hai aur un mein aksar bohot hi bure kaam kar rahe hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:67",
+      "surah": 5,
+      "ayah": 67,
+      "urdu": "اے رسول پہنچا دو جو کچھ اترا تمہیں تمہارے رب کی طرف سے (ف۱۷۳) اور ایسا نہ ہو تو تم نے اس کا کوئی پیام نہ پہنچایا اور اللہ تمہاری نگہبانی کرے گا لوگوں سے (ف۱۷٤) بیشک اللہ کافروں کو راہ نہیں دیتا،",
+      "roman_urdu": "Ae Rasool! Pahunchao jo kuch utra tumhein tumhare Rab ki taraf se, aur aisa na ho to tumne iska koi paighaam na pahunchaya, aur Allah tumhari nigraani karega logon se, beshak Allah kafiron ko raah nahi deta.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:68",
+      "surah": 5,
+      "ayah": 68,
+      "urdu": "تم فرمادو، اے کتابیو! تم کچھ بھی نہیں ہو (ف۱۷۵) جب تک نہ قائم کرو توریت اور انجیل اور جو کچھ تمہاری طرف تمہارے رب کے پاس سے اترا (ف۱۷٦) اور بیشک اے محبوب! وہ جو تمہاری طرف تمہارے رب کے پاس سے اترا اس میں بہتوں کو شرارت اور کفر کی اور ترقی ہوگی (ف۱۷۷) تو تم کافروں کا کچھ غم نہ کھاؤ،",
+      "roman_urdu": "Tum farmaao, Ae kitaabiyo! Tum kuch bhi nahi ho jab tak na qaim karo Taurat aur Injil aur jo kuch tumhari taraf tumhare Rab ke paas se utra, aur beshak Ae Mehboob! Woh jo tumhari taraf tumhare Rab ke paas se utra, is mein bohoton ko shararat aur kufr ki taraqqi ho gi, to tum kafiron ka kuch gham na khao.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:69",
+      "surah": 5,
+      "ayah": 69,
+      "urdu": "بیشک وہ جو اپنے آپ کو مسلمان کہتے ہیں (ف۱۷۸) اور اسی طرح یہودی اور ستارہ پرست اور نصرانی ان میں جو کوئی سچے دل سے اللہ اور قیامت پر ایمان لائے اور اچھے کام کرے تو ان پر نہ کچھ اندیشہ ہے اور نہ کچھ غم،",
+      "roman_urdu": "Beshak woh jo apne aap ko Musalman kehte hain, aur isi tarah Yahoodi aur Sitara Part aur Nasara, un mein jo koi sacche dil se Allah aur qayamat par imaan laye aur achhe kaam kare, to un par na kuch andesha hai aur na kuch gham.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:70",
+      "surah": 5,
+      "ayah": 70,
+      "urdu": "بیشک ہم نے بنی اسرائیل سے عہد لیا (ف۱۷۹) اور ان کی طرف رسول بھیجے، جب کبھی ان کے پاس کوئی رسول وہ بات لے کر آیا جو ان کے نفس کی خواہش نہ تھی (ف۱۸۰) ایک گروہ کو جھٹلایا اور ایک گروہ کو شہید کرتے ہیں (ف۱۸۱)",
+      "roman_urdu": "Beshak humne Bani Israeel se ahd liya aur un ki taraf Rasool bheje, jab kabhi un ke paas koi Rasool woh baat le kar aaya jo un ke nafs ki khwahish na thi, ek giroh ko jhuthlaaya aur ek giroh ko shaheed karte hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:71",
+      "surah": 5,
+      "ayah": 71,
+      "urdu": "اور اس گمان میں ہیں کہ کوئی سزا نہ ہوگی (ف۱۸۲) تو اندھے اور بہرے ہوگئے (ف۱۸۳) پھر اللہ نے ان کی توبہ قبول کی (۱۸٤) پھر ان میں بہتیرے اندھے اور بہرے ہوگئے اور اللہ ان کے کام دیکھ رہا ہے،",
+      "roman_urdu": "Aur is guman mein hain ke koi saza na ho gi, to andhe aur bahre ho gaye, phir Allah ne un ki tauba qubool ki, phir un mein bohotere andhe aur bahre ho gaye aur Allah un ke kaam dekh raha hai.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:72",
+      "surah": 5,
+      "ayah": 72,
+      "urdu": "بیشک کافر ہیں وہ جو کہتے ہیں کہ اللہ وہی مسیح مریم کا بیٹا ہے (ف۱۸۵) اور مسیح نے تو یہ کہا تھا، اے بنی اسرائیل اللہ کی بندگی کرو جو میرا رب (ف۱۸٦) اور تمہارا رب، بیشک جو اللہ کا شریک ٹھہرائے تو اللہ نے اس پر جنت حرام کردی اور اس کا ٹھکانا دوزخ ہے اور ظالموں کا کوئی مددگار نہیں،",
+      "roman_urdu": "Beshak kafir hain woh jo kehte hain, Allah wahi Maseeh Maryam ka beta hai, aur Maseeh ne to yeh kaha tha, Ae Bani Israeel! Allah ki bandgi karo, jo mera Rab aur tumhara Rab, beshak jo Allah ka shareek thehraaye, to Allah ne is par Jannat haram kar di aur is ka thikaana Dozakh hai aur zalimon ka koi madadgar nahi.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:73",
+      "surah": 5,
+      "ayah": 73,
+      "urdu": "بیشک کافر ہیں وہ جو کہتے ہیں اللہ تین خداؤں میں کا تیسرا ہے (ف۱۸۷) اور خدا تو نہیں مگر ایک خدا (ف۱۸۸) اور اگر اپنی بات سے باز نہ آئے (ف۱۸۹) تو جو ان میں کافر مریں گے ان کو ضرور دردناک عذاب پہنچے گا،",
+      "roman_urdu": "Beshak kafir hain woh jo kehte hain, Allah teen khudaon mein ka teesra hai, aur Khuda to nahi magar ek Khuda, aur agar apni baat se baaz na aaye, to jo un mein kafir marein ge un ko zaroor dardnaak azaab pahunchayega.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:74",
+      "surah": 5,
+      "ayah": 74,
+      "urdu": "تو کیوں نہیں رجوع کرتے اللہ کی طرف اور اس سے بخشش مانگتے، اور اللہ بخشنے والا مہربان،",
+      "roman_urdu": "To kyun nahi rujoo karte Allah ki taraf aur is se bakhshish maangte, aur Allah bakhshne wala meherban hai.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:75",
+      "surah": 5,
+      "ayah": 75,
+      "urdu": "مسیح بن مریم نہیں مگر ایک رسول (ف۱۹۰) اس سے پہلے بہت رسول ہو گزرے (ف۱۹۱) اور اس کی ماں صدیقہ ہے (ف۱۹۲) دونوں کھانا کھاتے تھے (ف۱۹۳) دیکھو تو ہم کیسی صاف نشانیاں ان کے لئے بیان کرتے ہیں پھر دیکھو وہ کیسے اوندھے جاتے ہیں،",
+      "roman_urdu": "Maseeh bin Maryam nahi magar ek Rasool, is se pehle bohot Rasool ho guzre, aur is ki maa Sadiqa hai, dono khana khate the, dekho to hum kaisi saaf nishaniyan un ke liye bayaan karte hain, phir dekho woh kaise ondhay jaate hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:76",
+      "surah": 5,
+      "ayah": 76,
+      "urdu": "تم فرماؤ کیا اللہ کے سوا ایسے کو پوجتے ہو جو تمہارے نقصان کا مالک نہ نفع کا (ف۱۹٤) اور اللہ ہی سنتا جانتا ہے،",
+      "roman_urdu": "Tum farmaao, kya Allah ke siwa aise ko poojhte ho jo tumhare nuqsan ka maalik na, nafa ka, aur Allah hi sunta jaanta hai.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:77",
+      "surah": 5,
+      "ayah": 77,
+      "urdu": "تم فرماؤ اے کتاب والو! اپنے دین میں ناحق زیادتی نہ کرو (ف۱۹۵) اور ایسے لوگوں کی خواہش پر نہ چلو (ف۱۹٦) جو پہلے گمراہ ہوچکے اور بہتوں کو گمراہ کیا اور سیدھی راہ سے بہک گئے",
+      "roman_urdu": "Tum farmaao, Ae kitaab walon! Apne deen mein na-haq ziadti na karo aur aise logon ki khwahish par na chalo jo pehle gumraah ho chuke aur bohoton ko gumraah kiya aur seedhi raah se behak gaye.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:78",
+      "surah": 5,
+      "ayah": 78,
+      "urdu": "لعنت کیے گئے وہ جنہوں نے کفر کیا بنی اسرائیل میں داؤد اور عیسیٰ بن مریم کی زبان پر (ف۱۹۷) یہ بدلہ ان کی نافرمانی اور سرکشی کا،",
+      "roman_urdu": "Laanat kiye gaye woh jin hon ne kufr ki, Bani Israeel mein Daud aur Eesa bin Maryam ki zaban par, ye badla un ki nafarmaani aur sarkashi ka.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:79",
+      "surah": 5,
+      "ayah": 79,
+      "urdu": "جو بری بات کرتے آپس میں ایک دوسرے کو نہ روکتے ضرور بہت ہی برے کام کرتے تھے (ف۱۹۹)",
+      "roman_urdu": "Jo buri baat karte aapas mein ek doosre ko na rokte, zaroor bohot hi bure kaam karte the.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:80",
+      "surah": 5,
+      "ayah": 80,
+      "urdu": "ان میں تم بہت کو دیکھو گے کہ کافروں سے دوستی کرتے ہیں، کیا ہی بری چیز اپنے لیے خود آگے بھیجی یہ کہ اللہ کا ان پر غضب ہوا اور وہ عذاب میں ہمیشہ رہیں گے (ف۲۰۰)",
+      "roman_urdu": "Un mein tum bohot ko dekho ge ke kafiron se dosti karte hain, kya hi buri cheez apne liye khud aage bheji, ye ke Allah ka un par ghazab hua aur woh azaab mein hamesha rahenge.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:81",
+      "surah": 5,
+      "ayah": 81,
+      "urdu": "اور اگر وہ ایمان لاتے (ف۲۰۱) اللہ اور ان نبی پر اور اس پر جو ان کی طرف اترا تو کافروں سے دوستی نہ کرتے (ف۲۰۲) مگر ان میں تو بہتیرے فاسق ہیں،",
+      "roman_urdu": "Aur agar woh imaan late Allah aur un Nabi par aur is par jo un ki taraf utra, to kafiron se dosti na karte, magar un mein to bohotere faasiq hain.",
+      "review_status": "source_roman_review_required"
+    },
+    {
+      "id": "5:82",
+      "surah": 5,
+      "ayah": 82,
+      "urdu": "ضرور تم مسلمانوں کا سب سے بڑھ کر دشمن یہودیوں اور مشرکوں کو پاؤ گے اور ضرور تم مسلمانوں کی دوستی میں سب سے زیادہ قریب ان کو پاؤ گے جو کہتے تھے ہم نصاریٰ ہیں (ف۲۰۳) یہ اس لئے کہ ان میں عالم اور درویش ہیں اور یہ غرور نہیں کرتے ۔ (ف۲۰٤)",
+      "roman_urdu": "Zaroor tum Musalmanon ka sab se barhkar dushman Yahoodiyon aur mushrikon ko pao ge, aur zaroor tum Musalmanon ki dosti mein sab se zyada qareeb un ko pao ge jo kehte the hum Nasara hain, ye is liye ke un mein aalim aur darvesh hain aur ye ghuroor nahi karte.",
+      "review_status": "source_roman_review_required"
+    }
+  ]
+}

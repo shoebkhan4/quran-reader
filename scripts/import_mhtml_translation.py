@@ -14,6 +14,12 @@ import re
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 METADATA = json.loads((ROOT / 'data/surahs.json').read_text(encoding='utf-8'))
+JUZ_BOUNDARIES = json.loads((ROOT / 'data/juz-boundaries.json').read_text(encoding='utf-8'))
+VERSE_COUNTS = {item['id']: item['verses'] for item in METADATA}
+ROMAN_OVERRIDES = {
+    '6:164': 'Tum farmao kya Allah ke siwa aur Rab chahun halaanke woh har cheez ka Rab hai, aur jo koi kuch kamaye woh usi ke zimmah hai, aur koi bojh uthane wali jaan doosre ka bojh na uthayegi, phir tumhein apne Rab ki taraf phirna hai, woh tumhein bata dega jis mein ikhtilaf karte the.',
+    '6:165': 'Aur wohi hai jis ne zameen mein tumhein naib kiya aur tum mein ek ko doosre par darjon bulandi di ke tumhein aazmaye us cheez mein jo tumhein ata ki. Beshak tumhare Rab ko azaab karte der nahin lagti aur beshak woh zaroor bakhshne wala meherban hai.',
+}
 
 
 def paragraph(block, css_class):
@@ -53,19 +59,75 @@ def extract(source, surah):
     return html_part.get('Content-Location'), verses
 
 
+def next_ayah(surah, ayah):
+    if ayah < VERSE_COUNTS[surah]:
+        return surah, ayah + 1
+    return surah + 1, 1
+
+
+def juz_ids(juz):
+    index = next((index for index, boundary in enumerate(JUZ_BOUNDARIES) if boundary['juz'] == juz), None)
+    if index is None:
+        raise ValueError(f'Unknown juz {juz}')
+    start = JUZ_BOUNDARIES[index]
+    end = JUZ_BOUNDARIES[index + 1] if index + 1 < len(JUZ_BOUNDARIES) else None
+    surah, ayah = start['surah'], start['ayah']
+    result = []
+    while end is None or (surah, ayah) < (end['surah'], end['ayah']):
+        result.append((surah, ayah))
+        surah, ayah = next_ayah(surah, ayah)
+    return result
+
+
+def extract_juz(source, juz):
+    message = BytesParser(policy=policy.default).parsebytes(source.read_bytes())
+    html_part = next((part for part in message.walk() if part.get_content_type() == 'text/html' and 'alahazratnetwork.org/surah/' in (part.get('Content-Location') or '')), None)
+    if html_part is None:
+        raise ValueError('No Alahazrat Network juz HTML part found')
+    html = html_part.get_payload(decode=True).decode('utf-8')
+    starts = list(re.finditer(r'<div class="q-row-item"(?: id="v\d+")?>', html))
+    expected = juz_ids(juz)
+    if len(starts) != len(expected):
+        raise ValueError(f'Juz {juz} expected {len(expected)} rows, found {len(starts)}')
+
+    verses = []
+    for index, start in enumerate(starts):
+        block = html[start.end():starts[index + 1].start() if index + 1 < len(starts) else len(html)]
+        surah, ayah = expected[index]
+        marker = re.search(r'<div class="q-arabic-text">.*?<span class="q-symbol">﴿(\d+)﴾', block, re.S)
+        urdu = paragraph(block, 'q-urdu-content')
+        roman = paragraph(block, 'q-roman-content')
+        if marker is None or int(marker.group(1)) != ayah:
+            raise ValueError(f'Juz {juz} row {index + 1}: Arabic marker does not match {surah}:{ayah}')
+        key = f'{surah}:{ayah}'
+        if not urdu:
+            raise ValueError(f'Juz {juz} row {index + 1}: Urdu missing for {key}')
+        if not roman:
+            roman = ROMAN_OVERRIDES.get(key)
+            if not roman:
+                raise ValueError(f'Juz {juz} row {index + 1}: Roman Urdu missing for {key}')
+            status = 'roman_transliteration_review_required'
+        else:
+            status = 'source_roman_review_required'
+        verses.append({'id': key, 'surah': surah, 'ayah': ayah, 'urdu': urdu, 'roman_urdu': roman, 'review_status': status})
+    return html_part.get('Content-Location'), verses
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('source', type=pathlib.Path)
-    parser.add_argument('--surah', type=int, required=True)
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument('--surah', type=int)
+    group.add_argument('--juz', type=int)
     parser.add_argument('--output', type=pathlib.Path, required=True)
     args = parser.parse_args()
-    source_page, verses = extract(args.source, args.surah)
+    source_page, verses = extract(args.source, args.surah) if args.surah else extract_juz(args.source, args.juz)
     document = {
-        'surah': args.surah,
+        **({'surah': args.surah} if args.surah else {'juz': args.juz}),
         'source_page': source_page,
         'source_archive': args.source.name,
         'license': 'Public domain, as confirmed by the project owner on 2026-11-12.',
-        'note': 'Urdu and Roman Urdu were extracted from same-ID source rows. Roman Urdu remains a review field until verse-by-verse review is completed.',
+        'note': 'Urdu and Roman Urdu were extracted from source rows whose Arabic markers matched their expected ayah IDs. Roman Urdu remains a review field until verse-by-verse review is completed.',
         'verses': verses,
     }
     args.output.write_text(json.dumps(document, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

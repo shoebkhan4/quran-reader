@@ -12,5 +12,8 @@ class JuzBoundaryTest(unittest.TestCase):
         positions = [item['surah'] * 1000 + item['ayah'] for item in boundaries]
         self.assertEqual(positions, sorted(positions))
         self.assertEqual(boundaries[0], {'juz': 1, 'surah': 1, 'ayah': 1})
+        self.assertEqual(boundaries[3], {'juz': 4, 'surah': 3, 'ayah': 92})
+        self.assertEqual(boundaries[6], {'juz': 7, 'surah': 5, 'ayah': 83})
+        self.assertEqual(boundaries[10], {'juz': 11, 'surah': 9, 'ayah': 94})
         self.assertEqual(boundaries[17], {'juz': 18, 'surah': 23, 'ayah': 1})
         self.assertEqual(boundaries[-1], {'juz': 30, 'surah': 78, 'ayah': 1})
