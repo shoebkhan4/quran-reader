@@ -10,8 +10,8 @@ The Urdu records in `data/al-fatiha.translation.review.json`,
 confirmed the source is public domain on 12 November 2026.
 
 `data/para-4.translation.review.json` through
-`data/para-10.translation.review.json` were extracted from the supplied
-Para 4–10 MHTML archives. Their ayah IDs are generated only after every source
+`data/para-20.translation.review.json` were extracted from the supplied
+Para 4–20 MHTML archives. Their ayah IDs are generated only after every source
 row's Arabic marker matches the standard Para sequence. This captures complete
 review coverage for Surahs An-Nisa through Al-Anfal, and partial coverage at
 the surrounding surah boundaries.
@@ -23,4 +23,6 @@ generated from the aligned Urdu row. For Al-Baqarah and Ale-Imran, the source
 Roman Urdu was present in the same matching row as its Urdu and Arabic marker.
 Para 8 had two empty source Roman Urdu fields (6:164 and 6:165); their Roman
 Urdu was generated from the aligned Urdu and is explicitly marked for extra
-review. All Roman Urdu must be reviewed before a full-corpus release.
+review. Later Para archives also contain missing Roman Urdu fields; their
+aligned Urdu is retained, while Roman Urdu stays explicitly unavailable. All
+Roman Urdu must be reviewed before a full-corpus release.

@@ -105,8 +105,10 @@ def extract_juz(source, juz):
         if not roman:
             roman = ROMAN_OVERRIDES.get(key)
             if not roman:
-                raise ValueError(f'Juz {juz} row {index + 1}: Roman Urdu missing for {key}')
-            status = 'roman_transliteration_review_required'
+                roman = ''
+                status = 'source_roman_missing'
+            else:
+                status = 'roman_transliteration_review_required'
         else:
             status = 'source_roman_review_required'
         verses.append({'id': key, 'surah': surah, 'ayah': ayah, 'urdu': urdu, 'roman_urdu': roman, 'review_status': status})
