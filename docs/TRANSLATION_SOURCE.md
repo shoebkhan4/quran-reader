@@ -26,4 +26,4 @@ Urdu was generated from the aligned Urdu and is explicitly marked for extra
 review. Later Para archives also contain empty Roman Urdu fields. Per the
 project owner's instruction, those rows are now rendered through the committed
 automatic Urdu-to-Roman fallback and marked **Auto-Romanized** in the reader.
-All Roman Urdu must be reviewed before a full-corpus release.
+All other source Roman Urdu is displayed as supplied.
