@@ -2,37 +2,7 @@ import React, {useEffect, useMemo, useRef, useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {BookOpen, Search, Bookmark, Moon, Sun, Copy, PanelLeftClose, PanelLeftOpen, Check, AlertTriangle, ChevronLeft, ChevronRight} from 'lucide-react';
 import surahs from '../data/surahs.json';
-import sample from '../data/an-nur.sample.json';
 import fatihaTranslation from '../data/al-fatiha.translation.review.json';
-import baqarahTranslation from '../data/al-baqarah.translation.review.json';
-import aleImranTranslation from '../data/ale-imran.translation.review.json';
-import para4Translation from '../data/para-4.translation.review.json';
-import para5Translation from '../data/para-5.translation.review.json';
-import para6Translation from '../data/para-6.translation.review.json';
-import para7Translation from '../data/para-7.translation.review.json';
-import para8Translation from '../data/para-8.translation.review.json';
-import para9Translation from '../data/para-9.translation.review.json';
-import para10Translation from '../data/para-10.translation.review.json';
-import para11Translation from '../data/para-11.translation.review.json';
-import para12Translation from '../data/para-12.translation.review.json';
-import para13Translation from '../data/para-13.translation.review.json';
-import para14Translation from '../data/para-14.translation.review.json';
-import para15Translation from '../data/para-15.translation.review.json';
-import para16Translation from '../data/para-16.translation.review.json';
-import para17Translation from '../data/para-17.translation.review.json';
-import para18Translation from '../data/para-18.translation.review.json';
-import para19Translation from '../data/para-19.translation.review.json';
-import para20Translation from '../data/para-20.translation.review.json';
-import para21Translation from '../data/para-21.translation.review.json';
-import para22Translation from '../data/para-22.translation.review.json';
-import para23Translation from '../data/para-23.translation.review.json';
-import para24Translation from '../data/para-24.translation.review.json';
-import para25Translation from '../data/para-25.translation.review.json';
-import para26Translation from '../data/para-26.translation.review.json';
-import para27Translation from '../data/para-27.translation.review.json';
-import para28Translation from '../data/para-28.translation.review.json';
-import para29Translation from '../data/para-29.translation.review.json';
-import para30Translation from '../data/para-30.translation.review.json';
 import arabicCorpus from '../data/quran-qpc-hafs.json';
 import {BISMILLAH, getJuzForAyah, getJuzRangeForSurah, hasOpeningBismillah, isSajdahAyah} from '../data/quran-metadata';
 import './styles.css';
@@ -43,45 +13,60 @@ import './translation-toggle.css';
 type ArabicAyah = {id:string; surah:number; ayah:number; arabic:string};
 type SampleTranslation = {id:string; urdu?:string; roman_urdu:string; review_status:string};
 type Ayah = ArabicAyah & {urdu?:string; roman_urdu?:string; review_status?:string};
-const translationsById = new Map(([
-  ...(sample.verses as SampleTranslation[]),
+type TranslationDocument = {verses: SampleTranslation[]};
+
+const translationLoaders: Record<string, () => Promise<TranslationDocument>> = {
+  '2': () => import('../data/al-baqarah.translation.review.json'),
+  '3': () => import('../data/ale-imran.translation.review.json'),
+  'para-4': () => import('../data/para-4.translation.review.json'),
+  'para-5': () => import('../data/para-5.translation.review.json'),
+  'para-6': () => import('../data/para-6.translation.review.json'),
+  'para-7': () => import('../data/para-7.translation.review.json'),
+  'para-8': () => import('../data/para-8.translation.review.json'),
+  'para-9': () => import('../data/para-9.translation.review.json'),
+  'para-10': () => import('../data/para-10.translation.review.json'),
+  'para-11': () => import('../data/para-11.translation.review.json'),
+  'para-12': () => import('../data/para-12.translation.review.json'),
+  'para-13': () => import('../data/para-13.translation.review.json'),
+  'para-14': () => import('../data/para-14.translation.review.json'),
+  'para-15': () => import('../data/para-15.translation.review.json'),
+  'para-16': () => import('../data/para-16.translation.review.json'),
+  'para-17': () => import('../data/para-17.translation.review.json'),
+  'para-18': () => import('../data/para-18.translation.review.json'),
+  'para-19': () => import('../data/para-19.translation.review.json'),
+  'para-20': () => import('../data/para-20.translation.review.json'),
+  'para-21': () => import('../data/para-21.translation.review.json'),
+  'para-22': () => import('../data/para-22.translation.review.json'),
+  'para-23': () => import('../data/para-23.translation.review.json'),
+  'para-24': () => import('../data/para-24.translation.review.json'),
+  'para-25': () => import('../data/para-25.translation.review.json'),
+  'para-26': () => import('../data/para-26.translation.review.json'),
+  'para-27': () => import('../data/para-27.translation.review.json'),
+  'para-28': () => import('../data/para-28.translation.review.json'),
+  'para-29': () => import('../data/para-29.translation.review.json'),
+  'para-30': () => import('../data/para-30.translation.review.json'),
+};
+const translationRequests = new Map<string, Promise<TranslationDocument>>();
+const loadTranslation = (unit:string) => {
+  const existing = translationRequests.get(unit);
+  if (existing) return existing;
+  const request = translationLoaders[unit]();
+  translationRequests.set(unit, request);
+  return request;
+};
+const translationUnitsForSurah = (surah:number, verseCount:number) => {
+  if (surah === 1) return [];
+  if (surah === 2 || surah === 3) return [String(surah)];
+  return [...new Set(Array.from({length:verseCount}, (_, index) => `para-${getJuzForAyah(surah,index + 1)}`))];
+};
+const initialTranslationsById = new Map(([
   ...(fatihaTranslation.verses as SampleTranslation[]),
-  ...(baqarahTranslation.verses as SampleTranslation[]),
-  ...(aleImranTranslation.verses as SampleTranslation[]),
-  ...(para4Translation.verses as SampleTranslation[]),
-  ...(para5Translation.verses as SampleTranslation[]),
-  ...(para6Translation.verses as SampleTranslation[]),
-  ...(para7Translation.verses as SampleTranslation[]),
-  ...(para8Translation.verses as SampleTranslation[]),
-  ...(para9Translation.verses as SampleTranslation[]),
-  ...(para10Translation.verses as SampleTranslation[]),
-  ...(para11Translation.verses as SampleTranslation[]),
-  ...(para12Translation.verses as SampleTranslation[]),
-  ...(para13Translation.verses as SampleTranslation[]),
-  ...(para14Translation.verses as SampleTranslation[]),
-  ...(para15Translation.verses as SampleTranslation[]),
-  ...(para16Translation.verses as SampleTranslation[]),
-  ...(para17Translation.verses as SampleTranslation[]),
-  ...(para18Translation.verses as SampleTranslation[]),
-  ...(para19Translation.verses as SampleTranslation[]),
-  ...(para20Translation.verses as SampleTranslation[]),
-  ...(para21Translation.verses as SampleTranslation[]),
-  ...(para22Translation.verses as SampleTranslation[]),
-  ...(para23Translation.verses as SampleTranslation[]),
-  ...(para24Translation.verses as SampleTranslation[]),
-  ...(para25Translation.verses as SampleTranslation[]),
-  ...(para26Translation.verses as SampleTranslation[]),
-  ...(para27Translation.verses as SampleTranslation[]),
-  ...(para28Translation.verses as SampleTranslation[]),
-  ...(para29Translation.verses as SampleTranslation[]),
-  ...(para30Translation.verses as SampleTranslation[]),
 ]).map(verse=>[verse.id,verse]));
-const versesBySurah = new Map<number, Ayah[]>();
+const arabicBySurah = new Map<number, ArabicAyah[]>();
 (arabicCorpus.verses as ArabicAyah[]).forEach(verse=>{
-  const translation=translationsById.get(verse.id);
-  const group=versesBySurah.get(verse.surah)||[];
-  group.push({...verse,...translation});
-  versesBySurah.set(verse.surah,group);
+  const group=arabicBySurah.get(verse.surah)||[];
+  group.push(verse);
+  arabicBySurah.set(verse.surah,group);
 });
 
 function App(){
@@ -90,6 +75,8 @@ function App(){
   const [readerQuery,setReaderQuery]=useState('');
   const [mode,setMode]=useState<'both'|'arabic'|'translation'>('both');
   const [translationLanguage,setTranslationLanguage]=useState<'roman'|'urdu'>('roman');
+  const [translationsById,setTranslationsById]=useState(()=>initialTranslationsById);
+  const [translationLoading,setTranslationLoading]=useState(false);
   const [size,setSize]=useState(31);
   const [translationSize,setTranslationSize]=useState(21);
   const [resumeAyah,setResumeAyah]=useState<string|null>(null);
@@ -100,6 +87,7 @@ function App(){
   const [showBookmarks,setShowBookmarks]=useState(false);
   const lastReadId=useRef<string|null>(null);
   const current=surahs.find(s=>s.id===surahId)!;
+  const versesBySurah=useMemo(()=>new Map([...arabicBySurah].map(([id,verses])=>[id,verses.map(verse=>({...verse,...translationsById.get(verse.id)}))])),[translationsById]);
   const reviewVerseCount=(versesBySurah.get(surahId)||[]).filter(verse=>verse.urdu&&verse.roman_urdu).length;
   const visibleSurahs=useMemo(()=>surahs.filter(s=>`${s.id} ${s.name} ${s.arabic}`.toLowerCase().includes(query.toLowerCase())),[query]);
   const visibleVerses=(versesBySurah.get(surahId)||[]).filter(v=>`${v.id} ${v.roman_urdu||''} ${v.arabic}`.toLowerCase().includes(readerQuery.toLowerCase()));
@@ -108,6 +96,18 @@ function App(){
   const translationLabel=translationLanguage==='urdu'?'KANZUL IMAN · URDU':'KANZUL IMAN · ROMAN URDU';
   const translationFor=(verse:Pick<Ayah,'urdu'|'roman_urdu'>)=>translationLanguage==='urdu'?verse.urdu:verse.roman_urdu;
   const saveLastRead=(id:string)=>{lastReadId.current=id;localStorage.setItem('quran-last-read',id);history.replaceState(null,'',`#${id}`)};
+  useEffect(()=>{
+    let cancelled=false;
+    const units=translationUnitsForSurah(surahId,current.verses);
+    if(!units.length)return;
+    setTranslationLoading(true);
+    Promise.all(units.map(loadTranslation)).then(documents=>{
+      if(cancelled)return;
+      setTranslationsById(previous=>new Map([...previous,...documents.flatMap(document=>document.verses).map(verse=>[verse.id,verse] as const)]));
+      setTranslationLoading(false);
+    }).catch(()=>{if(!cancelled)setTranslationLoading(false)});
+    return()=>{cancelled=true};
+  },[surahId,current.verses]);
   useEffect(()=>{const target=location.hash.slice(1)||localStorage.getItem('quran-last-read')||localStorage.getItem('quran-last-surah')||'';const match=target.match(/^(\d{1,3})(?::(\d+))?$/);const id=Number(match?.[1]);if(surahs.some(s=>s.id===id)){setSurahId(id);if(match?.[2]){const key=`${id}:${match[2]}`;lastReadId.current=key;setResumeAyah(key)}}},[]);
   useEffect(()=>{localStorage.setItem('quran-last-surah',String(surahId))},[surahId]);
   useEffect(()=>{if(!resumeAyah?.startsWith(`${surahId}:`))return;const frame=requestAnimationFrame(()=>document.getElementById(`ayah-${resumeAyah}`)?.scrollIntoView({block:'start'}));return()=>cancelAnimationFrame(frame)},[surahId,resumeAyah]);
@@ -129,7 +129,7 @@ function App(){
       <main>
         <div className="hero"><div className="hero-decoration">۞</div><span className="eyebrow">SURAH {current.id} · {current.verses} AYAT · {getJuzRangeForSurah(current.id,current.verses).toUpperCase()}</span><div className="hero-arabic" lang="ar" dir="rtl">{current.arabic}</div><h1>{current.name}</h1><p>{reviewVerseCount?'Urdu + Roman Urdu review data':'QPC Hafs Arabic corpus · Roman Urdu authorization pending'}</p><span className="ornament">✦　◇　✦</span></div>
         <div className="reader-tools"><div className="mode-group" role="group" aria-label="Reader language"><button onClick={()=>setMode('both')} className={mode==='both'?'selected':''}>Arabic + Translation</button><button onClick={()=>setMode('arabic')} className={mode==='arabic'?'selected':''}>Arabic</button><button onClick={()=>setMode('translation')} className={mode==='translation'?'selected':''}>Translation</button></div><div className="translation-switch" role="group" aria-label="Translation language"><button onClick={()=>setTranslationLanguage('roman')} className={translationLanguage==='roman'?'selected':''}>Roman Urdu</button><button onClick={()=>setTranslationLanguage('urdu')} className={translationLanguage==='urdu'?'selected':''}>Urdu</button></div><div className="font-control"><span>Arabic size</span><button aria-label="Decrease Arabic font size" onClick={()=>setSize(x=>Math.max(22,x-3))}>−</button><span>{size}</span><button aria-label="Increase Arabic font size" onClick={()=>setSize(x=>Math.min(52,x+3))}>+</button></div><div className="font-control"><span>Translation size</span><button aria-label="Decrease translation font size" onClick={()=>setTranslationSize(x=>Math.max(15,x-2))}>−</button><span>{translationSize}</span><button aria-label="Increase translation font size" onClick={()=>setTranslationSize(x=>Math.min(36,x+2))}>+</button></div></div>
-        <div className="notice"><AlertTriangle size={17}/><span>{reviewVerseCount?<><strong>Review data:</strong> {reviewVerseCount} of {current.verses} ayahs have Urdu and Roman Urdu loaded from validated source rows. Roman Urdu remains marked for verse-by-verse review.</>:<><strong>Roman Urdu release gate:</strong> Arabic is complete and ayah-indexed. This surah's Urdu and Roman Urdu review data has not been imported yet.</>}</span></div>
+        <div className="notice"><AlertTriangle size={17}/><span>{translationLoading?<><strong>Loading translation:</strong> Arabic is ready; the selected Para data is being loaded.</>:reviewVerseCount?<><strong>Review data:</strong> {reviewVerseCount} of {current.verses} ayahs have Urdu and Roman Urdu loaded from validated source rows. Roman Urdu remains marked for verse-by-verse review.</>:<><strong>Roman Urdu release gate:</strong> Arabic is complete and ayah-indexed. This surah's Urdu and Roman Urdu review data has not been imported yet.</>}</span></div>
         {showBookmarks&&<section className="bookmark-panel"><div><Bookmark size={18}/><strong>Saved Ayat</strong></div>{saved.length?saved.map(id=><button key={id} onClick={()=>{const [surah]=id.split(':').map(Number);selectSurah(surah);setShowBookmarks(false)}}>{id}</button>):<p>No saved ayat yet.</p>}</section>}
         <><label className="verse-search"><Search size={18}/><input placeholder="Search within this surah..." value={readerQuery} onChange={e=>setReaderQuery(e.target.value)}/></label><div className="ayah-list">{hasOpeningBismillah(surahId)&&<div className="bismillah" id={surahId===1?'ayah-1:1':undefined} data-ayah-id={surahId===1?'1:1':undefined} lang="ar" dir="rtl"><p>{BISMILLAH}</p>{mode!=='arabic'&&bismillahTranslation&&<div className={`bismillah-translation ${translationLanguage}`} dir={translationLanguage==='urdu'?'rtl':'ltr'}><span>{translationLabel}</span><p style={{fontSize:`${translationSize}px`}}>{translationFor(bismillahTranslation)}</p></div>}</div>}{renderedVerses.map(v=><article className="ayah-card" id={`ayah-${v.id}`} data-ayah-id={v.id} key={v.id}><div className="ayah-header"><div className="ayah-location"><span className="ayah-number">{v.id}</span><span className="para-number">Para {getJuzForAyah(v.surah,v.ayah)}</span></div><div className="ayah-actions">{isSajdahAyah(v.id)&&<span className="sajdah-mark" title="Sajdah al-tilawah location">۩ Sajdah</span>}{v.review_status&&<span className="unverified">{v.review_status==='automatic_romanization_review_required'?'Auto-Romanized':'Needs review'}</span>}<button title="Copy Ayat" aria-label={`Copy ${v.id}`} onClick={()=>copyVerse(v)}>{copied===v.id?<Check size={18}/>:<Copy size={18}/>}</button><button title="Bookmark" aria-label={`Bookmark ${v.id}`} onClick={()=>toggleBookmark(v.id)}><Bookmark size={18} fill={saved.includes(v.id)?'currentColor':'none'}/></button></div></div>{mode!=='translation'&&<p className="ayah-arabic" lang="ar" dir="rtl" style={{fontSize:`${size}px`}}>{v.arabic} <span className="arabic-numeral">۞</span></p>}{mode==='both'&&<div className="verse-divider"/>}{mode!=='arabic'&&<div className="translation"><span className="translation-label">{translationLabel}</span>{translationFor(v)?<p dir={translationLanguage==='urdu'?'rtl':'ltr'} style={{fontSize:`${translationSize}px`}}>{translationFor(v)}</p>:<p className="translation-pending">Awaiting an aligned {translationLanguage==='urdu'?'Urdu':'Roman Urdu'} source.</p>}</div>}</article>)}{renderedVerses.length===0&&<p className="empty">No matching ayat.</p>}</div></>
         <div className="surah-pagination"><button onClick={()=>moveSurah(-1)} disabled={surahId===1}><ChevronLeft size={17}/> Previous</button><span>Surah {surahId} of 114</span><button onClick={()=>moveSurah(1)} disabled={surahId===114}>Next <ChevronRight size={17}/></button></div>
