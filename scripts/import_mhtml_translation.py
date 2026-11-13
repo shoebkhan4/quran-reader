@@ -20,6 +20,32 @@ ROMAN_OVERRIDES = {
     '6:164': 'Tum farmao kya Allah ke siwa aur Rab chahun halaanke woh har cheez ka Rab hai, aur jo koi kuch kamaye woh usi ke zimmah hai, aur koi bojh uthane wali jaan doosre ka bojh na uthayegi, phir tumhein apne Rab ki taraf phirna hai, woh tumhein bata dega jis mein ikhtilaf karte the.',
     '6:165': 'Aur wohi hai jis ne zameen mein tumhein naib kiya aur tum mein ek ko doosre par darjon bulandi di ke tumhein aazmaye us cheez mein jo tumhein ata ki. Beshak tumhare Rab ko azaab karte der nahin lagti aur beshak woh zaroor bakhshne wala meherban hai.',
 }
+WORD_ROMANIZATION = {
+    'اللہ': 'Allah', 'رب': 'Rab', 'ہے': 'hai', 'ہیں': 'hain', 'تھا': 'tha', 'تھی': 'thi',
+    'تھے': 'the', 'اور': 'aur', 'کو': 'ko', 'کی': 'ki', 'کا': 'ka', 'کے': 'ke', 'میں': 'mein',
+    'سے': 'se', 'پر': 'par', 'نے': 'ne', 'نہ': 'na', 'جو': 'jo', 'یہ': 'yeh', 'وہ': 'woh',
+    'ہم': 'hum', 'تم': 'tum', 'آپ': 'aap', 'تو': 'to', 'بھی': 'bhi', 'اگر': 'agar', 'پھر': 'phir',
+    'اب': 'ab', 'کہ': 'ke', 'ایک': 'ek', 'کوئی': 'koi', 'سب': 'sab', 'ہر': 'har', 'بیشک': 'beshak',
+    'اپنے': 'apne', 'اپنا': 'apna', 'اپنی': 'apni', 'ہمارے': 'hamare', 'ہمیں': 'humein',
+    'تمہیں': 'tumhein', 'ان': 'un', 'انہیں': 'unhein', 'انھیں': 'unhein', 'اس': 'is', 'اسے': 'use',
+    'فرماؤ': 'farmao', 'فرمایا': 'farmaya', 'کہا': 'kaha', 'کہتے': 'kehte', 'کرو': 'karo',
+    'کریں': 'karein', 'کری': 'kari', 'کیا': 'kiya', 'ہوگا': 'hoga', 'ہوگی': 'hogi', 'ہوئے': 'huay',
+    'ہوا': 'hua', 'ہو': 'ho', 'نہیں': 'nahin', 'آج': 'aaj', 'بعد': 'baad', 'دن': 'din',
+}
+CHAR_ROMANIZATION = str.maketrans({
+    'ا': 'a', 'آ': 'aa', 'ب': 'b', 'پ': 'p', 'ت': 't', 'ٹ': 't', 'ث': 's', 'ج': 'j', 'چ': 'ch',
+    'ح': 'h', 'خ': 'kh', 'د': 'd', 'ڈ': 'd', 'ذ': 'z', 'ر': 'r', 'ڑ': 'r', 'ز': 'z', 'ژ': 'zh',
+    'س': 's', 'ش': 'sh', 'ص': 's', 'ض': 'z', 'ط': 't', 'ظ': 'z', 'ع': '', 'غ': 'gh', 'ف': 'f',
+    'ق': 'q', 'ک': 'k', 'گ': 'g', 'ل': 'l', 'م': 'm', 'ن': 'n', 'ں': 'n', 'و': 'o', 'ہ': 'h',
+    'ھ': 'h', 'ء': '', 'ی': 'i', 'ے': 'e', 'ئ': 'e', 'ؤ': 'o', 'ۃ': 't', 'ة': 't', 'ۂ': 'e',
+})
+
+
+def romanize_urdu(text):
+    """Readable, provisional Hinglish transliteration for source blanks only."""
+    text = re.sub(r'\s*\(ف[۰-۹\d]+\)', '', text)
+    tokens = re.findall(r'[\u0600-\u06ff]+|[^\u0600-\u06ff]+', text)
+    return ''.join(WORD_ROMANIZATION.get(token, token.translate(CHAR_ROMANIZATION)) if re.fullmatch(r'[\u0600-\u06ff]+', token) else token for token in tokens).strip()
 
 
 def paragraph(block, css_class):
@@ -105,8 +131,8 @@ def extract_juz(source, juz):
         if not roman:
             roman = ROMAN_OVERRIDES.get(key)
             if not roman:
-                roman = ''
-                status = 'source_roman_missing'
+                roman = romanize_urdu(urdu)
+                status = 'automatic_romanization_review_required'
             else:
                 status = 'roman_transliteration_review_required'
         else:

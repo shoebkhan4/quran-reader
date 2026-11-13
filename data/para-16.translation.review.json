@@ -1074,8 +1074,8 @@
       "surah": 19,
       "ayah": 98,
       "urdu": "اور ہم نے ان سے پہلے کتنی سنگتیں کھپائیں (قومیں ہلاک کیں) (ف۱۵۷) کیا تم ان میں کسی کو دیکھتے ہو یا ان کی بھنک (ذرا بھی آواز) سنتے ہو (ف۱۵۸)",
-      "roman_urdu": "",
-      "review_status": "source_roman_missing"
+      "roman_urdu": "aur hum ne un se phle ktni sngtin khpaein (qomin hlak kin) kiya tum un mein ksi ko dikhte ho ia un ki bhnk (zra bhi aaoaz) snte ho",
+      "review_status": "automatic_romanization_review_required"
     },
     {
       "id": "20:1",
@@ -2154,8 +2154,8 @@
       "surah": 20,
       "ayah": 135,
       "urdu": "تم فرماؤ سب راہ دیکھ رہے ہیں (ف۲۱۲) تو تم بھی راہ دیکھو تو اب جان جاؤ گے (ف۲۱۳) کہ کون ہیں سیدھی راہ والے اور کس نے ہدایت پائی،",
-      "roman_urdu": "",
-      "review_status": "source_roman_missing"
+      "roman_urdu": "tum farmao sab rah dikh rhe hain to tum bhi rah dikho to ab jan jao ge ke kon hain sidhi rah oale aur ks ne hdait paei،",
+      "review_status": "automatic_romanization_review_required"
     }
   ]
 }

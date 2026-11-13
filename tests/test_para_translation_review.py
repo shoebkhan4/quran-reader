@@ -26,5 +26,4 @@ class ParaTranslationReviewTest(unittest.TestCase):
             self.assertEqual(verses[0]['id'], first_id)
             self.assertEqual(verses[-1]['id'], last_id)
             self.assertEqual(len({verse['id'] for verse in verses}), count)
-            self.assertTrue(all(verse['urdu'] for verse in verses))
-            self.assertTrue(all(verse['roman_urdu'] or verse['review_status'] == 'source_roman_missing' for verse in verses))
+            self.assertTrue(all(verse['urdu'] and verse['roman_urdu'] for verse in verses))

@@ -23,6 +23,7 @@ generated from the aligned Urdu row. For Al-Baqarah and Ale-Imran, the source
 Roman Urdu was present in the same matching row as its Urdu and Arabic marker.
 Para 8 had two empty source Roman Urdu fields (6:164 and 6:165); their Roman
 Urdu was generated from the aligned Urdu and is explicitly marked for extra
-review. Later Para archives also contain missing Roman Urdu fields; their
-aligned Urdu is retained, while Roman Urdu stays explicitly unavailable. All
-Roman Urdu must be reviewed before a full-corpus release.
+review. Later Para archives also contain empty Roman Urdu fields. Per the
+project owner's instruction, those rows are now rendered through the committed
+automatic Urdu-to-Roman fallback and marked **Auto-Romanized** in the reader.
+All Roman Urdu must be reviewed before a full-corpus release.
