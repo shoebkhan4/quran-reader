@@ -1,0 +1,62 @@
+import React,{forwardRef,useEffect,useImperativeHandle,useRef,useState} from 'react';
+import {Play,Pause,SkipBack,SkipForward,X} from 'lucide-react';
+import {adjacentAyah,recitationUrl,RECITER} from './audio-source';
+import './audio-player.css';
+
+export type AudioHandle={playAyah:(id:string)=>void;stop:()=>void};
+type Props={ids:string[];getStart:()=>string;onCurrent:(id:string|null)=>void;onFollow:(id:string)=>void};
+export const AudioPlayer=forwardRef<AudioHandle,Props>(function AudioPlayer({ids,getStart,onCurrent,onFollow},ref){
+  const audio=useRef<HTMLAudioElement>(null);
+  const request=useRef(0);
+  const current=useRef<string|null>(null);
+  const [id,setId]=useState<string|null>(null);
+  const [visible,setVisible]=useState(false);
+  const [status,setStatus]=useState<'idle'|'loading'|'playing'|'paused'|'error'|'complete'>('idle');
+  const [error,setError]=useState('');
+  const [continuous,setContinuous]=useState(true);
+  const [follow,setFollow]=useState(true);
+  const [repeat,setRepeat]=useState(false);
+  const stop=()=>{request.current++;const el=audio.current;if(el){el.pause();el.removeAttribute('src');el.load()}current.current=null;setId(null);setStatus('idle');setError('');setVisible(false);onCurrent(null)};
+  const playAyah=(key:string)=>{
+    const el=audio.current;
+    if(!el||!ids.includes(key))return;
+    const token=++request.current;
+    setVisible(true);setError('');setStatus('loading');
+    if(current.current!==key||el.error||el.ended){el.src=recitationUrl(key);el.load()}
+    current.current=key;setId(key);
+    void el.play().catch(reason=>{
+      if(token!==request.current)return;
+      if(reason?.name==='AbortError'){setStatus('paused');return}
+      setStatus('error');
+      setError(reason?.name==='NotAllowedError'?'Tap Play to allow audio in this browser.':'Audio could not play. Check your connection and tap Retry.');
+    });
+  };
+  useImperativeHandle(ref,()=>({playAyah,stop}));
+  useEffect(()=>{const element=audio.current;return()=>{request.current++;element?.pause()}},[]);
+  const toggle=()=>{
+    const el=audio.current;
+    if(!el)return;
+    if(!el.paused){request.current++;el.pause();setStatus('paused')}
+    else playAyah(current.current||getStart());
+  };
+  const next=(direction:-1|1)=>{const target=id&&adjacentAyah(ids,id,direction);if(target)playAyah(target)};
+  const ended=()=>{
+    if(!current.current)return;
+    if(repeat){playAyah(current.current);return}
+    const target=continuous&&adjacentAyah(ids,current.current,1);
+    if(target)playAyah(target);else setStatus('complete');
+  };
+  return <>
+    <audio ref={audio} preload="none" controls={visible} className={visible?'recitation-native':'recitation-hidden'} aria-label="Recitation playback and seek controls"
+      onPlaying={()=>{setStatus('playing');setError('');if(current.current){onCurrent(current.current);if(follow)onFollow(current.current)}}}
+      onPause={()=>setStatus(s=>s==='error'||s==='complete'||s==='idle'?s:'paused')}
+      onWaiting={()=>setStatus('loading')} onEnded={ended}
+      onError={()=>{if(current.current){setStatus('error');setError('Audio is unavailable. Check your connection and tap Retry.')}}}/>
+    {visible?<section className="audio-player" aria-label="Quran audio player">
+      <div className="audio-heading"><div><strong>{RECITER}</strong><span>Arabic recitation · Ayat {id} {status==='loading'?'· Loading…':status==='complete'?'· Finished':''}</span></div><button aria-label="Stop and close audio" onClick={stop}><X size={19}/></button></div>
+      <div className="audio-controls"><button aria-label="Previous audio ayat" disabled={!id||!adjacentAyah(ids,id,-1)} onClick={()=>next(-1)}><SkipBack size={18}/></button><button className="audio-play" aria-label={status==='playing'?'Pause recitation':'Play recitation'} onClick={toggle}>{status==='playing'?<Pause size={19}/>:<Play size={19}/>} {status==='playing'?'Pause':status==='error'?'Retry':'Play'}</button><button aria-label="Next audio ayat" disabled={!id||!adjacentAyah(ids,id,1)} onClick={()=>next(1)}><SkipForward size={18}/></button><label><input type="checkbox" checked={continuous} onChange={e=>setContinuous(e.target.checked)}/> Continue</label><label><input type="checkbox" checked={repeat} onChange={e=>setRepeat(e.target.checked)}/> Repeat ayat</label><label><input type="checkbox" checked={follow} onChange={e=>setFollow(e.target.checked)}/> Follow text</label></div>
+      {error&&<p className="audio-error" role="alert">{error}</p>}
+      <small>Audio: <a href="https://everyayah.com/" target="_blank" rel="noreferrer">EveryAyah</a> · Internet required</small>
+    </section>:<button className="listen-start" onClick={()=>playAyah(getStart())}><Play size={17}/> Listen · Mishary Alafasy</button>}
+  </>;
+});
