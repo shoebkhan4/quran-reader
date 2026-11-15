@@ -48,3 +48,16 @@
   .translation-switch { width: 100%; }
   .translation-switch button { flex: 1; }
 }
+
+/* Keep language selection within reach while reading on desktop. */
+.side-footer { flex-shrink: 0; }
+.desktop-language-switch { display: block; }
+.footer-language-label { display: block; margin-bottom: 8px; font-size: 10px; font-weight: 700; letter-spacing: 1.2px; }
+.desktop-language-switch .translation-switch { width: 100%; }
+.desktop-language-switch button { flex: 1; min-height: 40px; padding: 8px 5px; }
+.desktop-language-switch button.selected { background: #185b4d; color: #fff; }
+.mobile-footer-note { display: none; }
+@media (max-width: 800px) {
+  .desktop-language-switch { display: none; }
+  .mobile-footer-note { display: inline; }
+}
